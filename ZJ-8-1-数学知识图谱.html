@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浙教版八年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>浙教版八年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: ZJ-8-1</span>
+            <span>章节数: 6</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 平行线 -->
+    <div class="chapter" id="ZJ-8-1-CH01" data-status="filled">
+        <h2>第1章 平行线</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH01 -->
+                    <div class="section">
+                        <h3>1.1 同位角、内错角、同旁内角</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 同位角、内错角、同旁内角</h4>
+                            <div class="definition"><strong>定义：</strong>两条直线被第三条直线所截形成的角的位置关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同位角呈F形</li>
+                            <li>内错角呈Z形</li>
+                            <li>同旁内角呈U形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别三种角、例2：判断角的位置关系</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.2 平行线的判定</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平行线的判定</h4>
+                            <div class="definition"><strong>定义：</strong>判定两条直线平行的方法。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同位角相等，两直线平行</li>
+                            <li>内错角相等，两直线平行</li>
+                            <li>同旁内角互补，两直线平行</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判定平行线、例2：综合判定</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.3 平行线的性质</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平行线的性质</h4>
+                            <div class="definition"><strong>定义：</strong>两条平行线被第三条直线所截的性质。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两直线平行，同位角相等</li>
+                            <li>两直线平行，内错角相等</li>
+                            <li>两直线平行，同旁内角互补</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：利用性质求角度、例2：性质的综合应用</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 特殊三角形 -->
+    <div class="chapter" id="ZJ-8-1-CH02" data-status="filled">
+        <h2>第2章 特殊三角形</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH02 -->
+                    <div class="section">
+                        <h3>2.1 等腰三角形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 等腰三角形</h4>
+                            <div class="definition"><strong>定义：</strong>有两条边相等的三角形叫做等腰三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>等边对等角</li>
+                            <li>三线合一：顶角平分线、底边上的中线、底边上的高互相重合</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：等腰三角形的性质、例2：等腰三角形的判定</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.2 等边三角形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 等边三角形</h4>
+                            <div class="definition"><strong>定义：</strong>三条边都相等的三角形叫做等边三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>三个角都等于60°</li>
+                            <li>三边上的三线合一</li>
+                            <li>是轴对称图形，有三条对称轴</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：等边三角形的性质、例2：等边三角形的判定</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.3 直角三角形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 直角三角形</h4>
+                            <div class="definition"><strong>定义：</strong>有一个角是直角的三角形叫做直角三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两个锐角互余</li>
+                            <li>斜边上的中线等于斜边的一半</li>
+                            <li>30°角所对的直角边等于斜边的一半</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：直角三角形的性质、例2：勾股定理</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 直棱柱 -->
+    <div class="chapter" id="ZJ-8-1-CH03" data-status="filled">
+        <h2>第3章 直棱柱</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH03 -->
+                    <div class="section">
+                        <h3>3.1 认识直棱柱</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 直棱柱</h4>
+                            <div class="definition"><strong>定义：</strong>侧棱与底面垂直的棱柱叫做直棱柱。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>上下底面是全等的多边形</li>
+                            <li>侧面都是矩形</li>
+                            <li>侧棱互相平行且相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别直棱柱、例2：直棱柱的特征</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.2 直棱柱的表面展开图</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 表面展开图</h4>
+                            <div class="definition"><strong>定义：</strong>将直棱柱的表面沿某些棱剪开，铺平后得到的平面图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>展开图由两个底面和若干个侧面组成</li>
+                            <li>正方体展开图有11种</li>
+                            <li>口诀：一线不过四，田凹应弃之</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画展开图、例2：由展开图判断几何体</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.3 三视图</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 三视图</h4>
+                            <div class="definition"><strong>定义：</strong>从正面、上面、左面观察物体得到的图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>主视图：从正面看到的图形</li>
+                            <li>俯视图：从上面看到的图形</li>
+                            <li>左视图：从左面看到的图形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画三视图、例2：由三视图判断几何体</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 样本与数据分析初步 -->
+    <div class="chapter" id="ZJ-8-1-CH04" data-status="filled">
+        <h2>第4章 样本与数据分析初步</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH04 -->
+                    <div class="section">
+                        <h3>4.1 抽样</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 抽样调查</h4>
+                            <div class="definition"><strong>定义：</strong>从总体中抽取部分个体进行调查。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>总体：所要考察的对象的全体</li>
+                            <li>个体：总体中的每一个考察对象</li>
+                            <li>样本：从总体中抽取的一部分个体</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>从全校1000名学生中抽取50名调查身高</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.2 平均数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平均数</h4>
+                            <div class="definition"><strong>定义：</strong>一组数据的总和除以数据的个数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>算术平均数</li>
+                            <li>加权平均数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：3,5,7,9的平均数、求加权平均数：5(权2),7(权3)</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.3 中位数和众数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 中位数</h4>
+                            <div class="definition"><strong>定义：</strong>将数据按大小顺序排列后位于中间的数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>奇数个数据：中间的数</li>
+                            <li>偶数个数据：中间两个数的平均数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：2,5,8,10,12的中位数、求：1,3,5,7的中位数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 众数</h4>
+                            <div class="definition"><strong>定义：</strong>一组数据中出现次数最多的数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一组数据可能有多个众数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：2,3,3,5,5,5,7的众数</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.4 方差和标准差</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 方差</h4>
+                            <div class="definition"><strong>定义：</strong>各数据与平均数差的平方的平均数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方差反映数据的波动大小</li>
+                            <li>方差越大，数据波动越大</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：2,4,6,8的方差</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 标准差</h4>
+                            <div class="definition"><strong>定义：</strong>方差的算术平方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>标准差=√方差</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知方差为4，求标准差</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 一元一次不等式 -->
+    <div class="chapter" id="ZJ-8-1-CH05" data-status="filled">
+        <h2>第5章 一元一次不等式</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH05 -->
+                    <div class="section">
+                        <h3>5.1 认识不等式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 不等式</h4>
+                            <div class="definition"><strong>定义：</strong>用不等号表示不等关系的式子。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>不等号：>、<、≥、≤、≠</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>列不等式：x大于3、列不等式：a不小于5</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>5.2 不等式的基本性质</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 不等式的基本性质</h4>
+                            <div class="definition"><strong>定义：</strong>不等式两边同时加上或减去同一个数，不等号方向不变；不等式两边同时乘或除以同一个正数，不等号方向不变；不等式两边同时乘或除以同一个负数，不等号方向改变。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>性质1：a>b，则a±c>b±c</li>
+                            <li>性质2：a>b，c>0，则ac>bc</li>
+                            <li>性质3：a>b，c<0，则ac<bc</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>若a>b，比较a+2与b+2、若a>b，c<0，比较ac与bc</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>5.3 一元一次不等式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一元一次不等式</h4>
+                            <div class="definition"><strong>定义：</strong>只含有一个未知数，且未知数的次数是1的不等式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解法：去分母、去括号、移项、合并同类项、系数化为1</li>
+                            <li>系数化为1时，若系数为负数，不等号方向要改变</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>解不等式：2x+3>7、解不等式：-3x<9</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>5.4 一元一次不等式组</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一元一次不等式组</h4>
+                            <div class="definition"><strong>定义：</strong>由几个含有同一个未知数的一元一次不等式组成的不等式组。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解集是各不等式解集的公共部分</li>
+                            <li>同大取大，同小取小，大小小大中间找，大大小小无解了</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>解不等式组：{x>2, x<5}、解不等式组：{x<3, x<1}</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 图形与坐标 -->
+    <div class="chapter" id="ZJ-8-1-CH06" data-status="filled">
+        <h2>第6章 图形与坐标</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-8-1-CH06 -->
+                    <div class="section">
+                        <h3>6.1 探索确定位置的方法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 确定位置的方法</h4>
+                            <div class="definition"><strong>定义：</strong>用有序数对确定平面上点的位置。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>用行和列确定位置</li>
+                            <li>用方向和距离确定位置</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>用(3,4)表示第3行第4列</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>6.2 平面直角坐标系</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平面直角坐标系</h4>
+                            <div class="definition"><strong>定义：</strong>在平面内，两条互相垂直且有公共原点的数轴组成平面直角坐标系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>x轴（横轴）、y轴（纵轴）</li>
+                            <li>原点、象限</li>
+                            <li>点的坐标(x,y)</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>写出点A(3,2)的坐标、在坐标系中标出点B(-2,4)</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 象限的特征</h4>
+                            <div class="definition"><strong>定义：</strong>各象限内点的坐标特征。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>第一象限(+,+)</li>
+                            <li>第二象限(-,+)</li>
+                            <li>第三象限(-,-)</li>
+                            <li>第四象限(+,-)</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断点P(-3,2)在第几象限</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>6.3 坐标平面内的图形变换</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 关于坐标轴对称的点的坐标</h4>
+                            <div class="definition"><strong>定义：</strong>关于x轴、y轴对称的点的坐标特征。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>关于x轴对称：横坐标相同，纵坐标互为相反数</li>
+                            <li>关于y轴对称：纵坐标相同，横坐标互为相反数</li>
+                            <li>关于原点对称：横纵坐标都互为相反数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>点A(3,4)关于x轴对称的点是、点B(-2,5)关于y轴对称的点是</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

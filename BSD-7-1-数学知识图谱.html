@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版七年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版七年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-7-1</span>
+            <span>章节数: 6</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 丰富的图形世界 -->
+    <div class="chapter" id="BSD-7-1-CH01" data-status="filled">
+        <h2>第1章 丰富的图形世界</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH01 -->
+                    <div class="section">
+                        <h3>1.1 生活中的立体图形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 立体图形</h4>
+                            <div class="definition"><strong>定义：</strong>各部分不都在同一平面内的几何图形叫做立体图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>常见的立体图形有：圆柱、圆锥、正方体、长方体、棱柱、球等</li>
+                            <li>n棱柱有(n+2)个面、3n条棱、2n个顶点</li>
+                            <li>圆柱的侧面是曲面，底面是圆形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别立体图形、例2：棱柱的特征</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 点、线、面、体</h4>
+                            <div class="definition"><strong>定义：</strong>点动成线，线动成面，面动成体。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>点是几何图形中最基本的元素</li>
+                            <li>面与面相交得到线</li>
+                            <li>线与线相交得到点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：点线面体的关系、例2：生活中的例子</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.2 展开与折叠</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 展开图</h4>
+                            <div class="definition"><strong>定义：</strong>将立体图形的表面沿某些棱剪开，铺平后得到的平面图形叫做展开图。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正方体的展开图有11种</li>
+                            <li>口诀：一线不过四，田凹应弃之</li>
+                            <li>圆柱的展开图是两个圆和一个长方形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：正方体的展开图、例2：由展开图判断几何体</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.3 截一个几何体</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 截面</h4>
+                            <div class="definition"><strong>定义：</strong>用一个平面去截一个几何体，截出的面叫做截面。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>截面的形状与几何体的形状和截面的角度有关</li>
+                            <li>正方体的截面可以是三角形、四边形、五边形、六边形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断截面形状、例2：截面的应用</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.4 从三个方向看物体的形状</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 三视图</h4>
+                            <div class="definition"><strong>定义：</strong>从正面、上面、左面观察物体得到的图形分别叫做主视图、俯视图、左视图。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>主视图反映物体的长和高</li>
+                            <li>俯视图反映物体的长和宽</li>
+                            <li>左视图反映物体的高和宽</li>
+                            <li>口诀：长对正、高平齐、宽相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画三视图、例2：由三视图判断几何体</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 有理数及其运算 -->
+    <div class="chapter" id="BSD-7-1-CH02" data-status="filled">
+        <h2>第2章 有理数及其运算</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH02 -->
+                    <div class="section">
+                        <h3>2.1 有理数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 正数和负数</h4>
+                            <div class="definition"><strong>定义：</strong>大于0的数叫做正数，在正数前面加上负号的数叫做负数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>0既不是正数也不是负数</li>
+                            <li>用正负数可以表示具有相反意义的量</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别正负数、例2：用正负数表示相反意义的量</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 有理数</h4>
+                            <div class="definition"><strong>定义：</strong>整数和分数统称为有理数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>有理数包括正有理数、0、负有理数</li>
+                            <li>整数包括正整数、0、负整数</li>
+                            <li>分数包括正分数、负分数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：有理数的分类、例2：判断有理数</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.2 数轴</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 数轴</h4>
+                            <div class="definition"><strong>定义：</strong>规定了原点、正方向和单位长度的直线叫做数轴。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>数轴的三要素：原点、正方向、单位长度</li>
+                            <li>任何一个有理数都可以用数轴上的一个点来表示</li>
+                            <li>数轴上右边的数总比左边的大</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：在数轴上表示数、例2：利用数轴比较大小</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.3 绝对值</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 相反数</h4>
+                            <div class="definition"><strong>定义：</strong>只有符号不同的两个数互为相反数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a的相反数是-a</li>
+                            <li>0的相反数是0</li>
+                            <li>互为相反数的两个数之和为0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求相反数、例2：相反数的应用</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 绝对值</h4>
+                            <div class="definition"><strong>定义：</strong>数轴上表示数a的点与原点的距离叫做数a的绝对值。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正数的绝对值是它本身</li>
+                            <li>负数的绝对值是它的相反数</li>
+                            <li>0的绝对值是0</li>
+                            <li>|a|≥0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求绝对值、例2：绝对值的计算</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.4 有理数的加法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 有理数加法法则</h4>
+                            <div class="definition"><strong>定义：</strong>同号两数相加，取相同的符号，并把绝对值相加；异号两数相加，绝对值相等时和为0，绝对值不等时取绝对值较大的加数的符号，并用较大的绝对值减去较小的绝对值。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同号相加，符号不变，绝对值相加</li>
+                            <li>异号相加，取大号符号，用大绝对值减小绝对值</li>
+                            <li>互为相反数相加得0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：有理数加法、例2：加法运算律</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.5 有理数的减法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 有理数减法法则</h4>
+                            <div class="definition"><strong>定义：</strong>减去一个数，等于加上这个数的相反数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a-b=a+(-b)</li>
+                            <li>减法可以转化为加法</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：有理数减法、例2：加减混合运算</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.6 有理数的加减混合运算</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 加减混合运算</h4>
+                            <div class="definition"><strong>定义：</strong>有理数的加减混合运算可以统一成加法运算。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>可以省略加号和括号</li>
+                            <li>利用加法运算律简化计算</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：加减混合运算、例2：简便计算</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.7 有理数的乘法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 有理数乘法法则</h4>
+                            <div class="definition"><strong>定义：</strong>两数相乘，同号得正，异号得负，并把绝对值相乘。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同号得正，异号得负</li>
+                            <li>任何数与0相乘都得0</li>
+                            <li>乘积为1的两个数互为倒数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：有理数乘法、例2：乘法运算律</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.8 有理数的除法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 有理数除法法则</h4>
+                            <div class="definition"><strong>定义：</strong>除以一个不等于0的数，等于乘这个数的倒数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a÷b=a×(1/b)（b≠0）</li>
+                            <li>同号得正，异号得负</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：有理数除法、例2：乘除混合运算</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.9 有理数的乘方</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 乘方</h4>
+                            <div class="definition"><strong>定义：</strong>求n个相同因数a的积的运算叫做乘方。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正数的任何次幂都是正数</li>
+                            <li>负数的奇次幂是负数，负数的偶次幂是正数</li>
+                            <li>0的任何正整数次幂都是0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：计算乘方、例2：乘方的应用</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.10 科学记数法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 科学记数法</h4>
+                            <div class="definition"><strong>定义：</strong>把一个大于10的数表示成a×10ⁿ的形式（1≤a<10，n是正整数）。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a的取值范围是1≤a<10</li>
+                            <li>n等于原数的整数位数减1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用科学记数法表示数、例2：还原科学记数法</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.11 有理数的混合运算</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 混合运算顺序</h4>
+                            <div class="definition"><strong>定义：</strong>先算乘方，再算乘除，最后算加减；有括号的先算括号里面的。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>运算顺序：乘方→乘除→加减</li>
+                            <li>有括号先算括号内的</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：混合运算、例2：简便计算</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 整式及其加减 -->
+    <div class="chapter" id="BSD-7-1-CH03" data-status="filled">
+        <h2>第3章 整式及其加减</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH03 -->
+                    <div class="section">
+                        <h3>3.1 字母表示数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 用字母表示数</h4>
+                            <div class="definition"><strong>定义：</strong>用字母可以表示任意一个有理数，也可以表示数量关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>字母可以表示数</li>
+                            <li>用字母表示数具有一般性</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用字母表示运算律、例2：用字母表示公式</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.2 代数式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 代数式</h4>
+                            <div class="definition"><strong>定义：</strong>用运算符号把数或表示数的字母连接而成的式子叫做代数式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>单独的一个数或一个字母也是代数式</li>
+                            <li>代数式中不含等号</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别代数式、例2：列代数式</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.3 整式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 单项式</h4>
+                            <div class="definition"><strong>定义：</strong>表示数与字母的乘积的代数式叫做单项式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>单项式中的数字因数叫做系数</li>
+                            <li>单项式中所有字母的指数和叫做次数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别单项式、例2：确定系数和次数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 多项式</h4>
+                            <div class="definition"><strong>定义：</strong>几个单项式的和叫做多项式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>多项式中的每个单项式叫做项</li>
+                            <li>次数最高项的次数叫做多项式的次数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别多项式、例2：确定项和次数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 整式</h4>
+                            <div class="definition"><strong>定义：</strong>单项式和多项式统称为整式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>整式包括单项式和多项式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断整式</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.4 整式的加减</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 同类项</h4>
+                            <div class="definition"><strong>定义：</strong>所含字母相同，并且相同字母的指数也相同的项叫做同类项。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同类项与系数无关</li>
+                            <li>几个常数项也是同类项</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别同类项、例2：合并同类项</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 合并同类项</h4>
+                            <div class="definition"><strong>定义：</strong>把多项式中的同类项合并成一项。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>合并后系数相加，字母和指数不变</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：合并同类项、例2：化简求值</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 去括号</h4>
+                            <div class="definition"><strong>定义：</strong>按照去括号法则去掉括号。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>括号前是正号，去掉括号后各项不变号</li>
+                            <li>括号前是负号，去掉括号后各项都变号</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：去括号、例2：去括号并合并同类项</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 基本平面图形 -->
+    <div class="chapter" id="BSD-7-1-CH04" data-status="filled">
+        <h2>第4章 基本平面图形</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH04 -->
+                    <div class="section">
+                        <h3>4.1 线段、射线、直线</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 线段</h4>
+                            <div class="definition"><strong>定义：</strong>有两个端点的直线部分叫做线段。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>线段有两个端点</li>
+                            <li>两点之间线段最短</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：线段的表示、例2：线段的长短比较</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 射线</h4>
+                            <div class="definition"><strong>定义：</strong>有一个端点，向一方无限延伸的直线部分叫做射线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>射线有一个端点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：射线的表示</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 直线</h4>
+                            <div class="definition"><strong>定义：</strong>没有端点，向两方无限延伸的线叫做直线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>直线没有端点</li>
+                            <li>两点确定一条直线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：直线的表示、例2：两点确定一条直线</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.2 比较线段的长短</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 线段的中点</h4>
+                            <div class="definition"><strong>定义：</strong>把线段分成两条相等线段的点叫做线段的中点。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>若M是AB的中点，则AM=MB=1/2AB</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求线段中点、例2：利用中点求线段长</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.3 角</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 角</h4>
+                            <div class="definition"><strong>定义：</strong>有公共端点的两条射线组成的图形叫做角。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>角的顶点是两条射线的公共端点</li>
+                            <li>角的两边是两条射线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：角的表示、例2：角的度量</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 角的度量</h4>
+                            <div class="definition"><strong>定义：</strong>用量角器度量角的大小。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>1°=60′，1′=60″</li>
+                            <li>1周角=360°，1平角=180°，1直角=90°</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：角的换算、例2：角的计算</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.4 角的比较</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 角的平分线</h4>
+                            <div class="definition"><strong>定义：</strong>从一个角的顶点出发，把这个角分成相等的两个角的射线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>若OC平分∠AOB，则∠AOC=∠BOC=1/2∠AOB</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：角平分线的性质、例2：利用角平分线求角度</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.5 多边形和圆的初步认识</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 多边形</h4>
+                            <div class="definition"><strong>定义：</strong>由若干条不在同一直线上的线段首尾顺次相连组成的封闭平面图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>n边形有n个顶点、n条边、n个内角</li>
+                            <li>从一个顶点出发的对角线有(n-3)条</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：多边形的认识、例2：多边形的对角线</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 圆</h4>
+                            <div class="definition"><strong>定义：</strong>平面上到定点的距离等于定长的所有点组成的图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>圆上任意两点间的部分叫做弧</li>
+                            <li>由一条弧和经过这条弧的端点的两条半径组成的图形叫做扇形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆的认识、例2：扇形的面积</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 一元一次方程 -->
+    <div class="chapter" id="BSD-7-1-CH05" data-status="filled">
+        <h2>第5章 一元一次方程</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH05 -->
+                    <div class="section">
+                        <h3>5.1 认识一元一次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 方程</h4>
+                            <div class="definition"><strong>定义：</strong>含有未知数的等式叫做方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方程必须含有未知数</li>
+                            <li>方程必须是等式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断方程、例2：列方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 一元一次方程</h4>
+                            <div class="definition"><strong>定义：</strong>只含有一个未知数，且未知数的次数是1的方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>只含有一个未知数</li>
+                            <li>未知数的次数是1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断一元一次方程、例2：列一元一次方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 方程的解</h4>
+                            <div class="definition"><strong>定义：</strong>使方程左右两边相等的未知数的值。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方程的解满足方程</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：检验方程的解</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>5.2 求解一元一次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 等式的基本性质</h4>
+                            <div class="definition"><strong>定义：</strong>等式两边同时加上或减去同一个数，等式仍然成立；等式两边同时乘或除以同一个不为0的数，等式仍然成立。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>等式性质1：a=b，则a±c=b±c</li>
+                            <li>等式性质2：a=b，则ac=bc；a=b（c≠0），则a/c=b/c</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：利用等式性质变形</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 解一元一次方程</h4>
+                            <div class="definition"><strong>定义：</strong>通过变形，把方程化为x=a的形式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>去分母、去括号、移项、合并同类项、系数化为1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解一元一次方程</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>5.3-5.6 应用一元一次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 列方程解应用题</h4>
+                            <div class="definition"><strong>定义：</strong>用一元一次方程解决实际问题。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>审、设、列、解、验、答</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：水箱变高问题、例2：打折销售问题、例3：追赶问题</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 数据的收集与整理 -->
+    <div class="chapter" id="BSD-7-1-CH06" data-status="filled">
+        <h2>第6章 数据的收集与整理</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-7-1-CH06 -->
+                    <div class="section">
+                        <h3>6.1 数据的收集</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 数据收集</h4>
+                            <div class="definition"><strong>定义：</strong>收集数据的方法有调查、实验、查阅资料等。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>全面调查：对总体中每一个个体进行调查</li>
+                            <li>抽样调查：从总体中抽取部分个体进行调查</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：选择合适的调查方式</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>6.2 普查和抽样调查</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 普查</h4>
+                            <div class="definition"><strong>定义：</strong>对总体中每一个个体进行的调查叫做普查。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>普查得到的结果准确</li>
+                            <li>普查工作量大，耗时长</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：普查的应用</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 抽样调查</h4>
+                            <div class="definition"><strong>定义：</strong>从总体中抽取部分个体进行调查。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>抽样调查省时省力</li>
+                            <li>样本要具有代表性</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：抽样调查的应用</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>6.3 数据的表示</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 统计图</h4>
+                            <div class="definition"><strong>定义：</strong>用图形表示数据的方法。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>条形统计图：清楚地表示出每个项目的具体数目</li>
+                            <li>折线统计图：反映事物的变化情况</li>
+                            <li>扇形统计图：表示各部分在总体中所占的百分比</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：绘制统计图、例2：从统计图获取信息</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

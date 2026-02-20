@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数学知识图谱系统 - 教材数字化工程</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { 
+            text-align: center; 
+            color: white; 
+            font-size: 2.5em; 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+        .version-section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .version-title {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .version-badge {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.7em;
+        }
+        .grade-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .textbook-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .textbook-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .textbook-card h3 {
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        .textbook-card .meta {
+            color: #666;
+            font-size: 0.85em;
+            margin-bottom: 15px;
+        }
+        .textbook-card a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            transition: background 0.3s;
+        }
+        .textbook-card a:hover {
+            background: #5a6fd6;
+        }
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        .category-title {
+            font-size: 1.2em;
+            color: #555;
+            margin: 20px 0 15px 0;
+            padding-left: 10px;
+            border-left: 4px solid #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📐 数学知识图谱系统</h1>
+        <p class="subtitle">教材数字化工程 | 42本教材 | 持续更新中</p>
+
+        <!-- 人教版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                人教版
+                <span class="version-badge">RJ</span>
+            </h2>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>七年级上册</h3>
+                    <p class="meta">4章 | 有理数、整式、方程、几何初步</p>
+                    <a href="RJ-7-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>七年级下册</h3>
+                    <p class="meta">6章 | 相交线、实数、坐标系、方程组、不等式、统计</p>
+                    <a href="RJ-7-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级上册</h3>
+                    <p class="meta">5章 | 三角形、全等、轴对称、整式乘法、分式</p>
+                    <a href="RJ-8-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级下册</h3>
+                    <p class="meta">5章 | 二次根式、勾股定理、平行四边形、一次函数、数据分析</p>
+                    <a href="RJ-8-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级上册</h3>
+                    <p class="meta">5章 | 一元二次方程、二次函数、旋转、圆、概率</p>
+                    <a href="RJ-9-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级下册</h3>
+                    <p class="meta">4章 | 反比例函数、相似、三角函数、投影与视图</p>
+                    <a href="RJ-9-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 北师大版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                北师大版
+                <span class="version-badge">BSD</span>
+            </h2>
+
+            <div class="category-title">小学</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>四年级上册</h3>
+                    <p class="meta">8章 | 大数、线与角、乘法、运算律、位置、除法、负数、可能性</p>
+                    <a href="BSD-4-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>四年级下册</h3>
+                    <p class="meta">6章 | 小数、三角形和四边形、小数乘法、观察物体、方程、统计</p>
+                    <a href="BSD-4-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>五年级上册</h3>
+                    <p class="meta">7章 | 小数除法、轴对称和平移、倍数与因数、多边形面积、分数、组合图形、可能性</p>
+                    <a href="BSD-5-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>五年级下册</h3>
+                    <p class="meta">8章 | 分数加减法、长方体、分数乘法、体积、分数除法、位置、方程、统计</p>
+                    <a href="BSD-5-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>六年级上册</h3>
+                    <p class="meta">7章 | 圆、分数混合运算、观察范围、百分数、数据处理、比、百分数应用</p>
+                    <a href="BSD-6-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>六年级下册</h3>
+                    <p class="meta">6章 | 圆柱与圆锥、比例、图形运动、正反比例、数学好玩、总复习</p>
+                    <a href="BSD-6-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+
+            <div class="category-title">初中</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>七年级上册</h3>
+                    <p class="meta">6章 | 丰富的图形世界、有理数、整式、平面图形、方程、数据</p>
+                    <a href="BSD-7-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>七年级下册</h3>
+                    <p class="meta">6章 | 整式乘除、相交线、变量关系、三角形、轴对称、概率</p>
+                    <a href="BSD-7-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级上册</h3>
+                    <p class="meta">6章 | 勾股定理、实数、坐标、一次函数、方程组、数据分析</p>
+                    <a href="BSD-8-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级下册</h3>
+                    <p class="meta">6章 | 三角形证明、不等式、平移旋转、因式分解、分式、平行四边形</p>
+                    <a href="BSD-8-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级上册</h3>
+                    <p class="meta">6章 | 特殊平行四边形、一元二次方程、概率、相似、投影、反比例函数</p>
+                    <a href="BSD-9-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级下册</h3>
+                    <p class="meta">3章 | 直角三角形边角关系、二次函数、圆</p>
+                    <a href="BSD-9-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+
+            <div class="category-title">高中</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>选择性必修第一册</h3>
+                    <p class="meta">5章 | 直线与圆、圆锥曲线、空间向量、计数原理、概率</p>
+                    <a href="BSD-GZ-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>选择性必修第二册</h3>
+                    <p class="meta">2章 | 数列、导数及其应用</p>
+                    <a href="BSD-GZ-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 沪教版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                沪教版
+                <span class="version-badge">HJ</span>
+            </h2>
+
+            <div class="category-title">小学</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>三年级上册</h3>
+                    <p class="meta">7章 | 复习与提高、乘除法、时间、分数、计算器、周长、整理</p>
+                    <a href="HJ-3-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>三年级下册</h3>
+                    <p class="meta">6章 | 复习与提高、速度时间路程、分数、计算器、面积、整理</p>
+                    <a href="HJ-3-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>四年级上册</h3>
+                    <p class="meta">6章 | 复习与提高、数与量、分数、四则运算、几何、整理</p>
+                    <a href="HJ-4-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>四年级下册</h3>
+                    <p class="meta">5章 | 复习与提高、小数、统计、垂直与平行、整理</p>
+                    <a href="HJ-4-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+
+            <div class="category-title">初中</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>七年级上册</h3>
+                    <p class="meta">4章 | 数的整除、分数、比和比例、圆和扇形</p>
+                    <a href="HJ-7-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>七年级下册</h3>
+                    <p class="meta">4章 | 有理数、方程组与不等式组、线段与角、长方体</p>
+                    <a href="HJ-7-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级上册</h3>
+                    <p class="meta">4章 | 二次根式、一元二次方程、正反比例函数、几何证明</p>
+                    <a href="HJ-8-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级下册</h3>
+                    <p class="meta">4章 | 一次函数、代数方程、四边形、概率初步</p>
+                    <a href="HJ-8-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 浙教版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                浙教版
+                <span class="version-badge">ZJ</span>
+            </h2>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>七年级上册</h3>
+                    <p class="meta">6章 | 有理数、运算、实数、代数式、方程、数据图表</p>
+                    <a href="ZJ-7-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>七年级下册</h3>
+                    <p class="meta">5章 | 图形初步、三角形、事件可能性、方程组、整式乘除</p>
+                    <a href="ZJ-7-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级上册</h3>
+                    <p class="meta">6章 | 平行线、特殊三角形、直棱柱、数据分析、不等式、坐标</p>
+                    <a href="ZJ-8-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级上册</h3>
+                    <p class="meta">4章 | 二次函数、概率、圆、相似三角形</p>
+                    <a href="ZJ-9-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级下册</h3>
+                    <p class="meta">3章 | 解直角三角形、直线与圆、三视图</p>
+                    <a href="ZJ-9-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 苏教版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                苏教版
+                <span class="version-badge">SJ</span>
+            </h2>
+
+            <div class="category-title">小学</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>四年级上册</h3>
+                    <p class="meta">8章 | 升和毫升、除法、观察物体、统计、策略、可能性、混合运算、垂线与平行线</p>
+                    <a href="SJ-4-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>四年级下册</h3>
+                    <p class="meta">7章 | 平移旋转轴对称、多位数、乘法、运算律、三角形平行四边形梯形、位置</p>
+                    <a href="SJ-4-2-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>六年级上册</h3>
+                    <p class="meta">7章 | 长方体正方体、分数乘法、分数除法、策略、分数混合运算、百分数</p>
+                    <a href="SJ-6-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>六年级下册</h3>
+                    <p class="meta">6章 | 扇形统计图、圆柱圆锥、策略、比例、位置、正反比例、总复习</p>
+                    <a href="SJ-6-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+
+            <div class="category-title">初中</div>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>七年级上册</h3>
+                    <p class="meta">5章 | 数学与我们同行、有理数、代数式、方程、图形世界</p>
+                    <a href="SJ-7-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>八年级上册</h3>
+                    <p class="meta">6章 | 全等三角形、轴对称、勾股定理、实数、坐标系、一次函数</p>
+                    <a href="SJ-8-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>九年级上册</h3>
+                    <p class="meta">4章 | 一元二次方程、圆、数据趋势、概率</p>
+                    <a href="SJ-9-1-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 西师大版 -->
+        <div class="version-section">
+            <h2 class="version-title">
+                西师大版
+                <span class="version-badge">XSD</span>
+            </h2>
+            <div class="grade-grid">
+                <div class="textbook-card">
+                    <h3>四年级上册</h3>
+                    <p class="meta">8章 | 混合运算、多位数、加减法、角、乘法、相交与平行、除法、不确定现象</p>
+                    <a href="XSD-4-1-数学知识图谱.html">查看图谱</a>
+                </div>
+                <div class="textbook-card">
+                    <h3>四年级下册</h3>
+                    <p class="meta">8章 | 混合运算、乘除法关系、位置、三角形、小数、平行四边形梯形、小数运算、平均数</p>
+                    <a href="XSD-4-2-数学知识图谱.html">查看图谱</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 数学知识图谱数字化工程 | 42本教材 | 持续更新中</p>
+        </div>
+    </div>
+</body>
+</html>

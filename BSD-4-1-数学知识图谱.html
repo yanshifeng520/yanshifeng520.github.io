@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版小学四年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section {
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+        .section h3 {
+            color: #3498db;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #ddd;
+        }
+        .knowledge-point h4 {
+            color: #2c3e50;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+        .knowledge-point .definition,
+        .knowledge-point .properties,
+        .knowledge-point .examples {
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        .knowledge-point ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版小学四年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-4-1</span>
+            <span>章节数: 8</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+
+    <!-- 章节注入点模板: 认识更大的数 -->
+    <div class="chapter" id="BSD-4-1-CH01" data-status="filled">
+        <h2>第1章 认识更大的数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH01 -->
+            
+                    <div class="section">
+                        <h3>1. 大数的认识</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 计数单位</h4>
+                            <div class="definition"><strong>定义：</strong>个、十、百、千、万、十万、百万、千万、亿等</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>相邻两个计数单位之间的进率是10</li><li>从右起每四位一级</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>写出计数单位：万、十万、百万、千万</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 大数的读写</h4>
+                            <div class="definition"><strong>定义：</strong>万以上数的读法和写法</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>从高位读起，一级一级往下读</li><li>写数时从高位写起</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>读出：35006000</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 大数的比较</h4>
+                            <div class="definition"><strong>定义：</strong>比较万以上数的大小</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>位数多的数大</li><li>位数相同，从最高位比起</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>比较：5600000和5060000</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 线与角 -->
+    <div class="chapter" id="BSD-4-1-CH02" data-status="filled">
+        <h2>第2章 线与角</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH02 -->
+            
+                    <div class="section">
+                        <h3>1. 线的认识</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 直线、射线、线段</h4>
+                            <div class="definition"><strong>定义：</strong>三种不同类型的线</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>直线：没有端点，无限长</li><li>射线：一个端点，无限长</li><li>线段：两个端点，有限长</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>画出一条射线AB</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 平行与相交</h4>
+                            <div class="definition"><strong>定义：</strong>同一平面内两条直线的位置关系</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平行：永不相交</li><li>相交：有交点</li><li>垂直：相交成直角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：两条直线不相交就一定平行吗</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2. 角的认识</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 角的度量</h4>
+                            <div class="definition"><strong>定义：</strong>用量角器测量角的度数</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>量角器的中心对准角的顶点</li><li>0刻度线对准角的一条边</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>量出给定角的度数</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 角的分类</h4>
+                            <div class="definition"><strong>定义：</strong>根据度数对角进行分类</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>锐角：小于90°</li><li>直角：等于90°</li><li>钝角：大于90°小于180°</li><li>平角：等于180°</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：120°是什么角</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 乘法 -->
+    <div class="chapter" id="BSD-4-1-CH03" data-status="filled">
+        <h2>第3章 乘法</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH03 -->
+            
+                    <div class="section">
+                        <h3>1. 三位数乘两位数</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 乘法计算</h4>
+                            <div class="definition"><strong>定义：</strong>三位数乘两位数的计算方法</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>先用两位数个位乘三位数</li><li>再用两位数十位乘三位数</li><li>最后把两次的积相加</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：234×56</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 估算</h4>
+                            <div class="definition"><strong>定义：</strong>乘法的估算方法</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>把因数看作接近的整十、整百数</li><li>再相乘</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>估算：298×42</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 运算律 -->
+    <div class="chapter" id="BSD-4-1-CH04" data-status="filled">
+        <h2>第4章 运算律</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH04 -->
+            
+                    <div class="section">
+                        <h3>1. 运算定律</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 加法运算律</h4>
+                            <div class="definition"><strong>定义：</strong>加法交换律和结合律</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>交换律：a+b=b+a</li><li>结合律：(a+b)+c=a+(b+c)</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>简便计算：125+78+75</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 乘法运算律</h4>
+                            <div class="definition"><strong>定义：</strong>乘法交换律、结合律和分配律</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>交换律：a×b=b×a</li><li>结合律：(a×b)×c=a×(b×c)</li><li>分配律：a×(b+c)=a×b+a×c</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>简便计算：25×17×4</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 方向与位置 -->
+    <div class="chapter" id="BSD-4-1-CH05" data-status="filled">
+        <h2>第5章 方向与位置</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH05 -->
+            
+                    <div class="section">
+                        <h3>1. 确定位置</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 用数对确定位置</h4>
+                            <div class="definition"><strong>定义：</strong>用有序数对表示位置</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>数对(a,b)表示第a列第b行</li><li>先列后行</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>用数对表示座位位置</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 除法 -->
+    <div class="chapter" id="BSD-4-1-CH06" data-status="filled">
+        <h2>第6章 除法</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH06 -->
+            
+                    <div class="section">
+                        <h3>1. 三位数除以两位数</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 除法计算</h4>
+                            <div class="definition"><strong>定义：</strong>三位数除以两位数的计算方法</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>从被除数的高位除起</li><li>除到哪一位商就写在哪一位</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：840÷24</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 商不变的规律</h4>
+                            <div class="definition"><strong>定义：</strong>被除数和除数同时乘或除以相同的数</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>商不变</li><li>余数要变</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>利用商不变规律计算：4800÷800</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 生活中的负数 -->
+    <div class="chapter" id="BSD-4-1-CH07" data-status="filled">
+        <h2>第7章 生活中的负数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH07 -->
+            
+                    <div class="section">
+                        <h3>1. 负数</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 负数的认识</h4>
+                            <div class="definition"><strong>定义：</strong>表示相反意义的量</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正数表示零上、收入等</li><li>负数表示零下、支出等</li><li>0既不是正数也不是负数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>写出：零下5摄氏度记作</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 可能性 -->
+    <div class="chapter" id="BSD-4-1-CH08" data-status="filled">
+        <h2>第8章 可能性</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-4-1-CH08 -->
+            
+                    <div class="section">
+                        <h3>1. 可能性</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 可能性的大小</h4>
+                            <div class="definition"><strong>定义：</strong>事件发生的可能性</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一定、可能、不可能</li><li>可能性大小与数量有关</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>袋中有3红2白球，摸出红球的可能性大吗</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

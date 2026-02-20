@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "title": "数学知识图谱版本映射表",
+    "description": "22本教材的版本信息、特有特征和章节映射",
+    "version": "1.0",
+    "created_date": "2024-01-01",
+    "total_textbooks": 22,
+    "total_chapters": 110
+  },
+  "versions": {
+    "RJ": {
+      "name": "人教版",
+      "full_name": "人民教育出版社",
+      "code": "RJ",
+      "textbook_count": 6,
+      "unique_features": [
+        "乘方前置（七上有理数章即引入乘方）",
+        "几何初步在七上（第四章几何图形初步）",
+        "函数概念在八下引入（一次函数）",
+        "二次函数在九上",
+        "反比例函数在九下"
+      ],
+      "chapter_order_characteristics": {
+        "rational_numbers": "七上第一章",
+        "geometry_basics": "七上第四章",
+        "linear_equations": "七上第三章",
+        "functions": "八下第十九章",
+        "quadratic_functions": "九上第二十二章",
+        "inverse_proportion": "九下第二十六章"
+      },
+      "warning_flags": []
+    },
+    "BSD": {
+      "name": "北师大版",
+      "full_name": "北京师范大学出版社",
+      "code": "BSD",
+      "textbook_count": 6,
+      "unique_features": [
+        "丰富的图形世界作为第一章（七上）",
+        "七上有理数包含绝对值早出现",
+        "变量关系单独成章（七下）",
+        "勾股定理前置（八上第一章）",
+        "因式分解在八下",
+        "图形相似在九上"
+      ],
+      "chapter_order_characteristics": {
+        "rich_graphics_world": "七上第一章",
+        "absolute_value": "七上第二章（有理数运算中包含）",
+        "variable_relationships": "七下第三章",
+        "pythagorean_theorem": "八上第一章",
+        "factorization": "八下第四章",
+        "similarity": "九上第四章"
+      },
+      "warning_flags": []
+    },
+    "HJ": {
+      "name": "沪教版",
+      "full_name": "上海教育出版社",
+      "code": "HJ",
+      "textbook_count": 4,
+      "unique_features": [
+        "尾数概念（六年级内容，可能前置）",
+        "分数运算体系不同（六年级深化）",
+        "数的整除单独成章（七上）",
+        "圆和扇形在七上",
+        "几何证明在八上",
+        "代数方程在八下"
+      ],
+      "chapter_order_characteristics": {
+        "divisibility": "七上第一章",
+        "fractions": "七上第二章",
+        "ratio_proportion": "七上第三章",
+        "circle_sector": "七上第四章",
+        "geometric_proof": "八上第四章"
+      },
+      "warning_flags": [
+        "注意区分六年级与七年级内容的衔接",
+        "分数运算深度可能与其他版本不同"
+      ]
+    },
+    "ZJ": {
+      "name": "浙教版",
+      "full_name": "浙江教育出版社",
+      "code": "ZJ",
+      "textbook_count": 3,
+      "unique_features": [
+        "无理数的精确度概念强调",
+        "七下才有三角形（与其他版本不同）",
+        "事件可能性在七下",
+        "直棱柱在八上",
+        "平行线前置（八上第一章）"
+      ],
+      "chapter_order_characteristics": {
+        "triangle": "七下第二章",
+        "event_probability": "七下第三章",
+        "parallel_lines": "八上第一章",
+        "prism": "八上第三章",
+        "irrational_precision": "七上第三章（实数）"
+      },
+      "warning_flags": [
+        "三角形位置较晚（七下），与其他版本不同",
+        "无理数精确度为特有概念，需特别标注"
+      ]
+    },
+    "SJ": {
+      "name": "苏教版",
+      "full_name": "江苏教育出版社",
+      "code": "SJ",
+      "textbook_count": 3,
+      "unique_features": [
+        "图形变换前置（七上第五章）",
+        "统计内容分布不同",
+        "数学与我们同行作为开篇",
+        "全等三角形在八上",
+        "轴对称图形在八上",
+        "圆在九上"
+      ],
+      "chapter_order_characteristics": {
+        "math_with_us": "七上第一章",
+        "graphic_world": "七上第五章",
+        "congruent_triangles": "八上第一章",
+        "axial_symmetry": "八上第二章",
+        "circle": "九上第二章"
+      },
+      "warning_flags": [
+        "统计内容分布与其他版本差异较大",
+        "图形变换概念出现较早"
+      ]
+    }
+  },
+  "textbooks": [
+    {
+      "code": "RJ-7-1",
+      "version": "人教版",
+      "grade": "七年级",
+      "term": "上册",
+      "chapter_count": 4,
+      "chapters": [
+        "有理数",
+        "整式的加减",
+        "一元一次方程",
+        "几何图形初步"
+      ],
+      "html_file": "RJ-7-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "RJ-7-2",
+      "version": "人教版",
+      "grade": "七年级",
+      "term": "下册",
+      "chapter_count": 6,
+      "chapters": [
+        "相交线与平行线",
+        "实数",
+        "平面直角坐标系",
+        "二元一次方程组",
+        "不等式与不等式组",
+        "数据的收集、整理与描述"
+      ],
+      "html_file": "RJ-7-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "RJ-8-1",
+      "version": "人教版",
+      "grade": "八年级",
+      "term": "上册",
+      "chapter_count": 5,
+      "chapters": [
+        "三角形",
+        "全等三角形",
+        "轴对称",
+        "整式的乘法与因式分解",
+        "分式"
+      ],
+      "html_file": "RJ-8-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "RJ-8-2",
+      "version": "人教版",
+      "grade": "八年级",
+      "term": "下册",
+      "chapter_count": 5,
+      "chapters": [
+        "二次根式",
+        "勾股定理",
+        "平行四边形",
+        "一次函数",
+        "数据的分析"
+      ],
+      "html_file": "RJ-8-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "RJ-9-1",
+      "version": "人教版",
+      "grade": "九年级",
+      "term": "上册",
+      "chapter_count": 5,
+      "chapters": [
+        "一元二次方程",
+        "二次函数",
+        "旋转",
+        "圆",
+        "概率初步"
+      ],
+      "html_file": "RJ-9-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "RJ-9-2",
+      "version": "人教版",
+      "grade": "九年级",
+      "term": "下册",
+      "chapter_count": 4,
+      "chapters": [
+        "反比例函数",
+        "相似",
+        "锐角三角函数",
+        "投影与视图"
+      ],
+      "html_file": "RJ-9-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-7-1",
+      "version": "北师大版",
+      "grade": "七年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "丰富的图形世界",
+        "有理数及其运算",
+        "整式及其加减",
+        "基本平面图形",
+        "一元一次方程",
+        "数据的收集与整理"
+      ],
+      "html_file": "BSD-7-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-7-2",
+      "version": "北师大版",
+      "grade": "七年级",
+      "term": "下册",
+      "chapter_count": 6,
+      "chapters": [
+        "整式的乘除",
+        "相交线与平行线",
+        "变量之间的关系",
+        "三角形",
+        "生活中的轴对称",
+        "概率初步"
+      ],
+      "html_file": "BSD-7-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-8-1",
+      "version": "北师大版",
+      "grade": "八年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "勾股定理",
+        "实数",
+        "位置与坐标",
+        "一次函数",
+        "二元一次方程组",
+        "数据的分析"
+      ],
+      "html_file": "BSD-8-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-8-2",
+      "version": "北师大版",
+      "grade": "八年级",
+      "term": "下册",
+      "chapter_count": 6,
+      "chapters": [
+        "三角形的证明",
+        "一元一次不等式与一元一次不等式组",
+        "图形的平移与旋转",
+        "因式分解",
+        "分式与分式方程",
+        "平行四边形"
+      ],
+      "html_file": "BSD-8-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-9-1",
+      "version": "北师大版",
+      "grade": "九年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "特殊平行四边形",
+        "一元二次方程",
+        "概率的进一步认识",
+        "图形的相似",
+        "投影与视图",
+        "反比例函数"
+      ],
+      "html_file": "BSD-9-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "BSD-9-2",
+      "version": "北师大版",
+      "grade": "九年级",
+      "term": "下册",
+      "chapter_count": 3,
+      "chapters": [
+        "直角三角形的边角关系",
+        "二次函数",
+        "圆"
+      ],
+      "html_file": "BSD-9-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "HJ-7-1",
+      "version": "沪教版",
+      "grade": "七年级",
+      "term": "上册",
+      "chapter_count": 4,
+      "chapters": [
+        "数的整除",
+        "分数",
+        "比和比例",
+        "圆和扇形"
+      ],
+      "html_file": "HJ-7-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "HJ-7-2",
+      "version": "沪教版",
+      "grade": "七年级",
+      "term": "下册",
+      "chapter_count": 4,
+      "chapters": [
+        "有理数",
+        "一次方程（组）和一次不等式（组）",
+        "线段与角的画法",
+        "长方体的再认识"
+      ],
+      "html_file": "HJ-7-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "HJ-8-1",
+      "version": "沪教版",
+      "grade": "八年级",
+      "term": "上册",
+      "chapter_count": 4,
+      "chapters": [
+        "二次根式",
+        "一元二次方程",
+        "正比例函数与反比例函数",
+        "几何证明"
+      ],
+      "html_file": "HJ-8-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "HJ-8-2",
+      "version": "沪教版",
+      "grade": "八年级",
+      "term": "下册",
+      "chapter_count": 4,
+      "chapters": [
+        "一次函数",
+        "代数方程",
+        "四边形",
+        "概率初步"
+      ],
+      "html_file": "HJ-8-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "ZJ-7-1",
+      "version": "浙教版",
+      "grade": "七年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "从自然数到有理数",
+        "有理数的运算",
+        "实数",
+        "代数式",
+        "一元一次方程",
+        "数据与图表"
+      ],
+      "html_file": "ZJ-7-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "ZJ-7-2",
+      "version": "浙教版",
+      "grade": "七年级",
+      "term": "下册",
+      "chapter_count": 5,
+      "chapters": [
+        "图形的初步知识",
+        "三角形",
+        "事件的可能性",
+        "二元一次方程组",
+        "整式的乘除"
+      ],
+      "html_file": "ZJ-7-2-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "ZJ-8-1",
+      "version": "浙教版",
+      "grade": "八年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "平行线",
+        "特殊三角形",
+        "直棱柱",
+        "样本与数据分析初步",
+        "一元一次不等式",
+        "图形与坐标"
+      ],
+      "html_file": "ZJ-8-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "SJ-7-1",
+      "version": "苏教版",
+      "grade": "七年级",
+      "term": "上册",
+      "chapter_count": 5,
+      "chapters": [
+        "数学与我们同行",
+        "有理数",
+        "代数式",
+        "一元一次方程",
+        "走进图形世界"
+      ],
+      "html_file": "SJ-7-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "SJ-8-1",
+      "version": "苏教版",
+      "grade": "八年级",
+      "term": "上册",
+      "chapter_count": 6,
+      "chapters": [
+        "全等三角形",
+        "轴对称图形",
+        "勾股定理",
+        "实数",
+        "平面直角坐标系",
+        "一次函数"
+      ],
+      "html_file": "SJ-8-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    },
+    {
+      "code": "SJ-9-1",
+      "version": "苏教版",
+      "grade": "九年级",
+      "term": "上册",
+      "chapter_count": 4,
+      "chapters": [
+        "一元二次方程",
+        "对称图形——圆",
+        "数据的集中趋势和离散程度",
+        "等可能条件下的概率"
+      ],
+      "html_file": "SJ-9-1-数学知识图谱.html",
+      "status": "skeleton_created"
+    }
+  ],
+  "chapter_mapping": {
+    "rational_numbers": {
+      "description": "有理数章节在不同版本中的位置",
+      "mapping": {
+        "RJ": "七上第一章",
+        "BSD": "七上第二章",
+        "HJ": "七下第一章",
+        "ZJ": "七上第一章",
+        "SJ": "七上第二章"
+      }
+    },
+    "triangle": {
+      "description": "三角形章节在不同版本中的位置",
+      "mapping": {
+        "RJ": "八上第十一章",
+        "BSD": "七下第四章",
+        "HJ": "[版本存疑-待核实]",
+        "ZJ": "七下第二章",
+        "SJ": "[版本存疑-待核实]"
+      }
+    },
+    "functions": {
+      "description": "函数概念引入位置",
+      "mapping": {
+        "RJ": "八下第十九章（一次函数）",
+        "BSD": "八上第四章（一次函数）",
+        "HJ": "八上第三章（正反比例函数）",
+        "ZJ": "八上第六章（坐标与函数）",
+        "SJ": "八上第六章（一次函数）"
+      }
+    },
+    "quadratic_functions": {
+      "description": "二次函数位置",
+      "mapping": {
+        "RJ": "九上第二十二章",
+        "BSD": "九下第二章",
+        "HJ": "[版本存疑-待核实]",
+        "ZJ": "[版本存疑-待核实]",
+        "SJ": "[版本存疑-待核实]"
+      }
+    },
+    "pythagorean_theorem": {
+      "description": "勾股定理位置",
+      "mapping": {
+        "RJ": "八下第十七章",
+        "BSD": "八上第一章",
+        "HJ": "[版本存疑-待核实]",
+        "ZJ": "[版本存疑-待核实]",
+        "SJ": "八上第三章"
+      }
+    }
+  },
+  "version_conflict_detection": {
+    "description": "版本特征冲突检测规则",
+    "rules": [
+      "若在人教版中发现'丰富的图形世界'作为第一章，标记[版本存疑]",
+      "若在北师大版中发现'乘方'在七下或更后，标记[版本存疑]",
+      "若在浙教版中发现三角形在七上，标记[版本存疑]",
+      "若在沪教版中发现有理数在七上第一章，标记[版本存疑]",
+      "若在苏教版中发现全等三角形不在八上，标记[版本存疑]"
+    ]
+  }
+}

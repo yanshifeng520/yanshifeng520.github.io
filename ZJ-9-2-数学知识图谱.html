@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浙教版九年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section {
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+        .section h3 {
+            color: #3498db;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #ddd;
+        }
+        .knowledge-point h4 {
+            color: #2c3e50;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+        .knowledge-point .definition,
+        .knowledge-point .properties,
+        .knowledge-point .examples {
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        .knowledge-point ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>浙教版九年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: ZJ-9-2</span>
+            <span>章节数: 3</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+
+    <!-- 章节注入点模板: 解直角三角形 -->
+    <div class="chapter" id="ZJ-9-2-CH01" data-status="filled">
+        <h2>第1章 解直角三角形</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-9-2-CH01 -->
+            
+                    <div class="section">
+                        <h3>1. 三角函数</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 锐角三角函数</h4>
+                            <div class="definition"><strong>定义：</strong>正弦、余弦、正切</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sinA=对边/斜边</li><li>cosA=邻边/斜边</li><li>tanA=对边/邻边</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>在直角三角形中，已知两边求sinA</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 特殊角的三角函数值</h4>
+                            <div class="definition"><strong>定义：</strong>30°、45°、60°的三角函数值</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sin30°=1/2</li><li>cos45°=√2/2</li><li>tan60°=√3</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：sin30°+cos60°</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 解直角三角形</h4>
+                            <div class="definition"><strong>定义：</strong>已知直角三角形的某些元素求其他元素</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>利用三角函数</li><li>利用勾股定理</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>解直角三角形</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 解直角三角形的应用</h4>
+                            <div class="definition"><strong>定义：</strong>用解直角三角形解决实际问题</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>仰角、俯角</li><li>坡度、坡角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>测量旗杆高度</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 直线与圆的位置关系 -->
+    <div class="chapter" id="ZJ-9-2-CH02" data-status="filled">
+        <h2>第2章 直线与圆的位置关系</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-9-2-CH02 -->
+            
+                    <div class="section">
+                        <h3>1. 直线与圆</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 直线与圆的位置关系</h4>
+                            <div class="definition"><strong>定义：</strong>相离、相切、相交</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>d>r：相离</li><li>d=r：相切</li><li>d<r：相交</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断直线与圆的位置关系</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 切线长定理</h4>
+                            <div class="definition"><strong>定义：</strong>从圆外一点引圆的两条切线，切线长相等</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>切线长相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>应用切线长定理</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 三角形的内切圆</h4>
+                            <div class="definition"><strong>定义：</strong>与三角形三边都相切的圆</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>内心是角平分线的交点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>画三角形的内切圆</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 三视图与表面展开图 -->
+    <div class="chapter" id="ZJ-9-2-CH03" data-status="filled">
+        <h2>第3章 三视图与表面展开图</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:ZJ-9-2-CH03 -->
+            
+                    <div class="section">
+                        <h3>1. 投影</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 投影</h4>
+                            <div class="definition"><strong>定义：</strong>平行投影和中心投影</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平行投影：太阳光下的投影</li><li>中心投影：点光源下的投影</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断投影类型</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 简单几何体的三视图</h4>
+                            <div class="definition"><strong>定义：</strong>主视图、俯视图、左视图</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>主视图：从正面看</li><li>俯视图：从上面看</li><li>左视图：从左面看</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>画出几何体的三视图</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 由三视图描述几何体</h4>
+                            <div class="definition"><strong>定义：</strong>根据三视图还原几何体</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>综合分析三个视图</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>根据三视图判断几何体</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 简单几何体的表面展开图</h4>
+                            <div class="definition"><strong>定义：</strong>立体图形的展开图</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正方体的展开图</li><li>圆柱、圆锥的展开图</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断展开图能否折成正方体</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

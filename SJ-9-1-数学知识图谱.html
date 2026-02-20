@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏教版九年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>苏教版九年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: SJ-9-1</span>
+            <span>章节数: 4</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 一元二次方程 -->
+    <div class="chapter" id="SJ-9-1-CH01" data-status="filled">
+        <h2>第1章 一元二次方程</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:SJ-9-1-CH01 -->
+                    <div class="section">
+                        <h3>1.1 一元二次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一元二次方程</h4>
+                            <div class="definition"><strong>定义：</strong>只含有一个未知数，且未知数的最高次数是2的整式方程叫做一元二次方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>只含有一个未知数</li>
+                            <li>未知数的最高次数是2</li>
+                            <li>方程两边都是整式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断一元二次方程、例2：根据条件列方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 一元二次方程的一般形式</h4>
+                            <div class="definition"><strong>定义：</strong>ax²+bx+c=0（a≠0），其中ax²是二次项，bx是一次项，c是常数项。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a是二次项系数，b是一次项系数，c是常数项</li>
+                            <li>a≠0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：化为一般形式、例2：确定各项系数</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.2 一元二次方程的解法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 直接开平方法</h4>
+                            <div class="definition"><strong>定义：</strong>利用平方根的定义直接求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>适用于x²=a（a≥0）形式的方程</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用直接开平方法解方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 配方法</h4>
+                            <div class="definition"><strong>定义：</strong>通过配方把方程化为(x+m)²=n的形式求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>将方程左边配成完全平方式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用配方法解方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 公式法</h4>
+                            <div class="definition"><strong>定义：</strong>利用求根公式x=(-b±√(b²-4ac))/(2a)求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>适用于所有一元二次方程</li>
+                            <li>Δ=b²-4ac叫做判别式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用公式法解方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 因式分解法</h4>
+                            <div class="definition"><strong>定义：</strong>把方程化为两个因式乘积等于0的形式求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>利用若ab=0，则a=0或b=0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：用因式分解法解方程</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.3 一元二次方程根的判别式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 根的判别式</h4>
+                            <div class="definition"><strong>定义：</strong>Δ=b²-4ac叫做一元二次方程ax²+bx+c=0的根的判别式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>Δ>0时，方程有两个不相等的实数根</li>
+                            <li>Δ=0时，方程有两个相等的实数根</li>
+                            <li>Δ<0时，方程没有实数根</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断根的情况、例2：根据根的情况求参数</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.4 一元二次方程根与系数的关系</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 韦达定理</h4>
+                            <div class="definition"><strong>定义：</strong>若x₁、x₂是方程ax²+bx+c=0的两个根，则x₁+x₂=-b/a，x₁x₂=c/a。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两根之和等于-b/a</li>
+                            <li>两根之积等于c/a</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：利用韦达定理求值、例2：构造一元二次方程</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 对称图形——圆 -->
+    <div class="chapter" id="SJ-9-1-CH02" data-status="filled">
+        <h2>第2章 对称图形——圆</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:SJ-9-1-CH02 -->
+                    <div class="section">
+                        <h3>2.1 圆</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆的定义</h4>
+                            <div class="definition"><strong>定义：</strong>平面上到定点（圆心）的距离等于定长（半径）的所有点组成的图形叫做圆。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>圆心确定圆的位置</li>
+                            <li>半径确定圆的大小</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆的基本概念、例2：圆的画法</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.2 圆的对称性</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆的对称性</h4>
+                            <div class="definition"><strong>定义：</strong>圆是轴对称图形，也是中心对称图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>圆有无数条对称轴，每条直径所在的直线都是对称轴</li>
+                            <li>圆心是圆的对称中心</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆的对称性、例2：对称性的应用</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.3 垂径定理</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 垂径定理</h4>
+                            <div class="definition"><strong>定义：</strong>垂直于弦的直径平分这条弦，并且平分弦所对的两条弧。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>垂直于弦的直径平分弦</li>
+                            <li>垂直于弦的直径平分弦所对的弧</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：垂径定理的应用、例2：求弦长</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.4 圆周角</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆周角</h4>
+                            <div class="definition"><strong>定义：</strong>顶点在圆上，两边都与圆相交的角叫做圆周角。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同弧所对的圆周角相等</li>
+                            <li>同弧所对的圆周角等于圆心角的一半</li>
+                            <li>直径所对的圆周角是直角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆周角的性质、例2：圆周角的应用</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 数据的集中趋势和离散程度 -->
+    <div class="chapter" id="SJ-9-1-CH03" data-status="filled">
+        <h2>第3章 数据的集中趋势和离散程度</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:SJ-9-1-CH03 -->
+                    <div class="section">
+                        <h3>3.1 平均数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平均数</h4>
+                            <div class="definition"><strong>定义：</strong>一组数据的总和除以数据的个数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>算术平均数</li>
+                            <li>加权平均数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：5,7,9,11的平均数、求加权平均数：8(权3),10(权2)</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.2 中位数与众数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 中位数</h4>
+                            <div class="definition"><strong>定义：</strong>将数据按大小顺序排列后位于中间的数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>奇数个数据：中间的数</li>
+                            <li>偶数个数据：中间两个数的平均数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：3,6,9,12,15的中位数、求：2,4,6,8的中位数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 众数</h4>
+                            <div class="definition"><strong>定义：</strong>一组数据中出现次数最多的数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一组数据可能有多个众数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求：1,2,2,3,3,3,4的众数</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.3 方差</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 方差</h4>
+                            <div class="definition"><strong>定义：</strong>各数据与平均数差的平方的平均数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方差反映数据的波动大小</li>
+                            <li>方差越大，数据波动越大</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：1,3,5,7的方差</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 标准差</h4>
+                            <div class="definition"><strong>定义：</strong>方差的算术平方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>标准差=√方差</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知方差为9，求标准差</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 等可能条件下的概率 -->
+    <div class="chapter" id="SJ-9-1-CH04" data-status="filled">
+        <h2>第4章 等可能条件下的概率</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:SJ-9-1-CH04 -->
+                    <div class="section">
+                        <h3>4.1 等可能性</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 等可能事件</h4>
+                            <div class="definition"><strong>定义：</strong>在一次试验中，每个结果出现的可能性相同的事件。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>每个结果出现的机会相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>掷一枚均匀的骰子，每个点数出现的可能性相等</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.2 等可能条件下的概率</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 概率</h4>
+                            <div class="definition"><strong>定义：</strong>在等可能条件下，事件A发生的概率P(A)=m/n，其中m是事件A包含的结果数，n是所有可能的结果数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>0≤P(A)≤1</li>
+                            <li>必然事件的概率为1</li>
+                            <li>不可能事件的概率为0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>掷一枚骰子，求点数大于4的概率、从1-10中随机取一个数，求是偶数的概率</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.3 用频率估计概率</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 用频率估计概率</h4>
+                            <div class="definition"><strong>定义：</strong>通过大量重复试验，用频率估计概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>试验次数越多，频率越接近概率</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>抛硬币100次，正面朝上的频率约为0.5</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

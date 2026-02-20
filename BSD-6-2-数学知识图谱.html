@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版小学六年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section {
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+        .section h3 {
+            color: #3498db;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #ddd;
+        }
+        .knowledge-point h4 {
+            color: #2c3e50;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+        .knowledge-point .definition,
+        .knowledge-point .properties,
+        .knowledge-point .examples {
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        .knowledge-point ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版小学六年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-6-2</span>
+            <span>章节数: 6</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+
+    <!-- 章节注入点模板: 圆柱与圆锥 -->
+    <div class="chapter" id="BSD-6-2-CH01" data-status="filled">
+        <h2>第1章 圆柱与圆锥</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH01 -->
+            
+                    <div class="section">
+                        <h3>1. 圆柱</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆柱的认识</h4>
+                            <div class="definition"><strong>定义：</strong>圆柱的特征</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两个底面是相等的圆</li><li>侧面是曲面</li><li>高是两个底面之间的距离</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>圆柱有几个底面</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 圆柱的表面积</h4>
+                            <div class="definition"><strong>定义：</strong>圆柱的表面积=侧面积+两个底面积</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>S侧=Ch=2πrh</li><li>S表=2πrh+2πr²</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：半径3cm，高5cm的圆柱表面积</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 圆柱的体积</h4>
+                            <div class="definition"><strong>定义：</strong>圆柱的体积=底面积×高</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>V=Sh=πr²h</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：直径8cm，高10cm的圆柱体积</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2. 圆锥</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆锥的认识</h4>
+                            <div class="definition"><strong>定义：</strong>圆锥的特征</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一个底面是圆</li><li>一个顶点</li><li>侧面是曲面</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>圆锥有几个顶点</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 圆锥的体积</h4>
+                            <div class="definition"><strong>定义：</strong>圆锥的体积=底面积×高÷3</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>V=Sh÷3=πr²h÷3</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：半径3cm，高6cm的圆锥体积</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 比例 -->
+    <div class="chapter" id="BSD-6-2-CH02" data-status="filled">
+        <h2>第2章 比例</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH02 -->
+            
+                    <div class="section">
+                        <h3>1. 比例</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 比例的认识</h4>
+                            <div class="definition"><strong>定义：</strong>表示两个比相等的式子</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a:b=c:d或a/b=c/d</li><li>a、d是外项，b、c是内项</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：2:3和4:6能否组成比例</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 比例的基本性质</h4>
+                            <div class="definition"><strong>定义：</strong>在比例里，两个外项的积等于两个内项的积</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>ad=bc</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>解比例：2:3=x:9</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 比例的应用</h4>
+                            <div class="definition"><strong>定义：</strong>用比例解决问题</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>设未知数</li><li>列比例</li><li>解比例</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>用比例解决问题</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 图形的运动 -->
+    <div class="chapter" id="BSD-6-2-CH03" data-status="filled">
+        <h2>第3章 图形的运动</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH03 -->
+            
+                    <div class="section">
+                        <h3>1. 图形的旋转</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 旋转</h4>
+                            <div class="definition"><strong>定义：</strong>图形绕某一点转动</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>旋转中心、旋转方向、旋转角度</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>画出旋转后的图形</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 正比例与反比例 -->
+    <div class="chapter" id="BSD-6-2-CH04" data-status="filled">
+        <h2>第4章 正比例与反比例</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH04 -->
+            
+                    <div class="section">
+                        <h3>1. 正比例与反比例</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 正比例</h4>
+                            <div class="definition"><strong>定义：</strong>两种相关联的量，一种量变化，另一种量也随着变化，如果这两种量中相对应的两个数的比值一定</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>y/x=k（一定）</li><li>图像是过原点的直线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：路程和时间是否成正比例</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 反比例</h4>
+                            <div class="definition"><strong>定义：</strong>两种相关联的量，一种量变化，另一种量也随着变化，如果这两种量中相对应的两个数的积一定</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>xy=k（一定）</li><li>图像是双曲线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：速度和时间是反比例吗</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 数学好玩 -->
+    <div class="chapter" id="BSD-6-2-CH05" data-status="filled">
+        <h2>第5章 数学好玩</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH05 -->
+            
+                    <div class="section">
+                        <h3>1. 数学好玩</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 绘制校园平面图</h4>
+                            <div class="definition"><strong>定义：</strong>综合运用比例尺等知识</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>确定比例尺</li><li>测量实际距离</li><li>计算图上距离</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>绘制校园平面图</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 总复习 -->
+    <div class="chapter" id="BSD-6-2-CH06" data-status="filled">
+        <h2>第6章 总复习</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-6-2-CH06 -->
+            
+                    <div class="section">
+                        <h3>1. 数与代数</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 整数</h4>
+                            <div class="definition"><strong>定义：</strong>整数的认识和运算</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>整数的读写</li><li>整数的四则运算</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>整数运算练习</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 小数</h4>
+                            <div class="definition"><strong>定义：</strong>小数的认识和运算</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>小数的读写</li><li>小数的四则运算</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>小数运算练习</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 分数</h4>
+                            <div class="definition"><strong>定义：</strong>分数的认识和运算</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>分数的读写</li><li>分数的四则运算</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>分数运算练习</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2. 图形与几何</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 平面图形</h4>
+                            <div class="definition"><strong>定义：</strong>平面图形的认识和计算</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>周长</li><li>面积</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算图形周长和面积</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 立体图形</h4>
+                            <div class="definition"><strong>定义：</strong>立体图形的认识和计算</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>表面积</li><li>体积</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算图形表面积和体积</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3. 统计与概率</h3>
+                        
+                        <div class="knowledge-point pending">
+                            <h4>1. 统计</h4>
+                            <div class="definition"><strong>定义：</strong>数据的收集和整理</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>统计表</li><li>统计图</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>绘制统计图</div>
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 概率</h4>
+                            <div class="definition"><strong>定义：</strong>可能性</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>可能性的大小</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算可能性</div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

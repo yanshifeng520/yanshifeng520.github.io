@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人教版九年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>人教版九年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: RJ-9-1</span>
+            <span>章节数: 5</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 一元二次方程 -->
+    <div class="chapter" id="RJ-9-1-CH01" data-status="filled">
+        <h2>第1章 一元二次方程</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-1-CH01 -->
+                    <div class="section">
+                        <h3>21.1 一元二次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一元二次方程</h4>
+                            <div class="definition"><strong>定义：</strong>只含有一个未知数，且未知数的最高次数是2的整式方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一般形式：ax²+bx+c=0（a≠0）</li>
+                            <li>a是二次项系数，b是一次项系数，c是常数项</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：-5<0是否正确</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>21.2 解一元二次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 配方法</h4>
+                            <div class="definition"><strong>定义：</strong>通过配方把方程化为(x+m)²=n的形式求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>将方程左边配成完全平方式</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>解方程：x+3=7</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 公式法</h4>
+                            <div class="definition"><strong>定义：</strong>利用求根公式x=(-b±√(b²-4ac))/(2a)求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>Δ=b²-4ac叫做判别式</li>
+                            <li>Δ>0时，方程有两个不相等的实数根</li>
+                            <li>Δ=0时，方程有两个相等的实数根</li>
+                            <li>Δ<0时，方程没有实数根</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：x²+x+1=0的根、求根公式、解方程：x+3=7</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 因式分解法</h4>
+                            <div class="definition"><strong>定义：</strong>把方程化为两个因式乘积等于0的形式求解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>利用若ab=0，则a=0或b=0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>分解：x²-4</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>21.3 实际问题与一元二次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 列方程解应用题</h4>
+                            <div class="definition"><strong>定义：</strong>用一元二次方程解决实际问题。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>增长率问题</li>
+                            <li>利润问题</li>
+                            <li>面积问题</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>一元二次方程的一般形式</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 二次函数 -->
+    <div class="chapter" id="RJ-9-1-CH02" data-status="filled">
+        <h2>第2章 二次函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-1-CH02 -->
+                    <div class="section">
+                        <h3>22.1 二次函数的图象和性质</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 二次函数</h4>
+                            <div class="definition"><strong>定义：</strong>形如y=ax²+bx+c（a、b、c是常数，a≠0）的函数叫做二次函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a是二次项系数，b是一次项系数，c是常数项</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：-5<0是否正确</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 二次函数的图象</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数的图象是抛物线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>当a>0时，抛物线开口向上</li>
+                            <li>当a<0时，抛物线开口向下</li>
+                            <li>对称轴是直线x=-b/(2a)</li>
+                            <li>顶点坐标是(-b/(2a)，(4ac-b²)/(4a))</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求y=x²-4x+3的顶点、y=ax²+bx+c中a≠0</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 二次函数的性质</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数的性质。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>当a>0时，x=-b/(2a)时，y有最小值</li>
+                            <li>当a<0时，x=-b/(2a)时，y有最大值</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>求y=x²-4x+3的最小值</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>22.2-22.3 二次函数与一元二次方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 二次函数与一元二次方程的关系</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数y=ax²+bx+c的图象与x轴的交点的横坐标就是一元二次方程ax²+bx+c=0的根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>Δ>0时，抛物线与x轴有两个交点</li>
+                            <li>Δ=0时，抛物线与x轴有一个交点</li>
+                            <li>Δ<0时，抛物线与x轴没有交点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>y=ax²+bx+c中a≠0、解方程：x+3=7</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 旋转 -->
+    <div class="chapter" id="RJ-9-1-CH03" data-status="filled">
+        <h2>第3章 旋转</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-1-CH03 -->
+                    <div class="section">
+                        <h3>23.1 图形的旋转</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 旋转</h4>
+                            <div class="definition"><strong>定义：</strong>在平面内，将一个图形绕一个定点按某个方向转动一个角度。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>旋转不改变图形的形状和大小</li>
+                            <li>对应点到旋转中心的距离相等</li>
+                            <li>对应点与旋转中心连线所成的角等于旋转角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>旋转不改变图形的、一个平角等于多少度</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>23.2 中心对称</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 中心对称</h4>
+                            <div class="definition"><strong>定义：</strong>把一个图形绕着某一个点旋转180°，如果它能够与另一个图形重合，那么就说这两个图形关于这个点对称或中心对称。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>对称中心是对应点连线的中点</li>
+                            <li>中心对称的两个图形全等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>旋转中心是、旋转不改变图形的、中心对称图形绕中心旋转</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 中心对称图形</h4>
+                            <div class="definition"><strong>定义：</strong>把一个图形绕着某一个点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形叫做中心对称图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>对称中心是旋转中心</li>
+                            <li>常见的中心对称图形：平行四边形、圆等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：(-2)+5</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 圆 -->
+    <div class="chapter" id="RJ-9-1-CH04" data-status="filled">
+        <h2>第4章 圆</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-1-CH04 -->
+                    <div class="section">
+                        <h3>24.1 圆的有关性质</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆</h4>
+                            <div class="definition"><strong>定义：</strong>平面上到定点的距离等于定长的所有点组成的图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>圆心确定圆的位置</li>
+                            <li>半径确定圆的大小</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>指出圆的圆心、半径、直径</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 垂径定理</h4>
+                            <div class="definition"><strong>定义：</strong>垂直于弦的直径平分这条弦，并且平分弦所对的两条弧。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>垂直于弦的直径平分弦</li>
+                            <li>垂直于弦的直径平分弦所对的弧</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知圆的半径为5，弦心距为3，求弦长</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 弧、弦、圆心角</h4>
+                            <div class="definition"><strong>定义：</strong>圆心角、弧、弦之间的关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>在同圆或等圆中，相等的圆心角所对的弧相等，所对的弦相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>等弧所对的圆心角</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 圆周角</h4>
+                            <div class="definition"><strong>定义：</strong>顶点在圆上，两边都与圆相交的角叫做圆周角。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同弧所对的圆周角相等</li>
+                            <li>同弧所对的圆周角等于圆心角的一半</li>
+                            <li>直径所对的圆周角是直角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>直径所对的圆周角等于90°</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>24.2 点和圆、直线和圆的位置关系</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 点和圆的位置关系</h4>
+                            <div class="definition"><strong>定义：</strong>点与圆的位置关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>点在圆外：d>r</li>
+                            <li>点在圆上：d=r</li>
+                            <li>点在圆内：d<r</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>圆半径为4，点到圆心距离为5，判断位置关系</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 直线和圆的位置关系</h4>
+                            <div class="definition"><strong>定义：</strong>直线与圆的位置关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>相离：d>r</li>
+                            <li>相切：d=r</li>
+                            <li>相交：d<r</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>圆半径为3，圆心到直线距离为2，判断位置关系</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 切线</h4>
+                            <div class="definition"><strong>定义：</strong>与圆只有一个公共点的直线叫做圆的切线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>切线垂直于过切点的半径</li>
+                            <li>过半径外端且垂直于半径的直线是圆的切线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>切线垂直于过切点的半径</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>24.3 正多边形和圆</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 正多边形</h4>
+                            <div class="definition"><strong>定义：</strong>各边相等、各角也相等的多边形叫做正多边形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正n边形有n条对称轴</li>
+                            <li>正n边形的中心角为360°/n</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>五边形内角和、计算：45°+30°、y=(x-2)²+1的对称轴</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>24.4 弧长和扇形面积</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 弧长</h4>
+                            <div class="definition"><strong>定义：</strong>弧的长度。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>弧长公式：l=(nπr)/180</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>半径为6，圆心角为60°，求弧长</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 扇形面积</h4>
+                            <div class="definition"><strong>定义：</strong>扇形的面积。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>扇形面积公式：S=(nπr²)/360=(1/2)lr</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>半径为4，圆心角为90°，求扇形面积</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 概率初步 -->
+    <div class="chapter" id="RJ-9-1-CH05" data-status="filled">
+        <h2>第5章 概率初步</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-1-CH05 -->
+                    <div class="section">
+                        <h3>25.1 随机事件与概率</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 事件</h4>
+                            <div class="definition"><strong>定义：</strong>在一定条件下，可能发生也可能不发生的事件叫做随机事件。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>必然事件：一定会发生的事件</li>
+                            <li>不可能事件：一定不会发生的事件</li>
+                            <li>随机事件：可能发生也可能不发生的事件</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断"掷骰子点数大于0"是什么事件</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 概率</h4>
+                            <div class="definition"><strong>定义：</strong>表示一个事件发生的可能性大小的数叫做该事件的概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>必然事件的概率为1</li>
+                            <li>不可能事件的概率为0</li>
+                            <li>随机事件的概率在0到1之间</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>掷一枚骰子，求点数为偶数的概率</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>25.2-25.3 求概率的方法</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 列表法</h4>
+                            <div class="definition"><strong>定义：</strong>用表格列举所有可能的结果，计算概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>适用于涉及两个因素的问题</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>同时掷两枚硬币，求都是正面的概率</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 树状图法</h4>
+                            <div class="definition"><strong>定义：</strong>用树状图列举所有可能的结果，计算概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>适用于涉及多个因素的问题</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>从1、2、3中随机取两个数，求和为5的概率</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 用频率估计概率</h4>
+                            <div class="definition"><strong>定义：</strong>通过大量重复试验，用频率估计概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>试验次数越多，频率越接近概率</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>大量重复试验、必然事件的概率</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人教版九年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>人教版九年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: RJ-9-2</span>
+            <span>章节数: 4</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 反比例函数 -->
+    <div class="chapter" id="RJ-9-2-CH01" data-status="filled">
+        <h2>第1章 反比例函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-2-CH01 -->
+                    <div class="section">
+                        <h3>26.1 反比例函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 反比例函数</h4>
+                            <div class="definition"><strong>定义：</strong>形如y=k/x（k为常数，k≠0）的函数叫做反比例函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>k是比例系数</li>
+                            <li>x≠0，y≠0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断：-5<0是否正确</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 反比例函数的图象和性质</h4>
+                            <div class="definition"><strong>定义：</strong>反比例函数的图象是双曲线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>当k>0时，双曲线在第一、三象限，y随x的增大而减小</li>
+                            <li>当k<0时，双曲线在第二、四象限，y随x的增大而增大</li>
+                            <li>|k|的几何意义：过双曲线上任意一点向两坐标轴作垂线，所得矩形面积为|k|</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断y=6/x的图象在第几象限</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>26.2 实际问题与反比例函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 反比例函数的应用</h4>
+                            <div class="definition"><strong>定义：</strong>用反比例函数解决实际问题。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>路程一定时，速度与时间成反比</li>
+                            <li>面积一定时，长与宽成反比</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>函数y=2x，当x=3时y=、y=k/x中k≠0</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 相似 -->
+    <div class="chapter" id="RJ-9-2-CH02" data-status="filled">
+        <h2>第2章 相似</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-2-CH02 -->
+                    <div class="section">
+                        <h3>27.1 图形的相似</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 相似图形</h4>
+                            <div class="definition"><strong>定义：</strong>形状相同的图形叫做相似图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>相似图形的对应角相等</li>
+                            <li>相似图形的对应边成比例</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>相似图形对应角、相似图形对应边</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 相似多边形</h4>
+                            <div class="definition"><strong>定义：</strong>对应角相等，对应边成比例的两个多边形叫做相似多边形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>相似多边形的对应边的比叫做相似比</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>计算：45°+30°、多边形外角和</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>27.2 相似三角形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 相似三角形</h4>
+                            <div class="definition"><strong>定义：</strong>对应角相等，对应边成比例的两个三角形叫做相似三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平行于三角形一边的直线和其他两边相交，所构成的三角形与原三角形相似</li>
+                            <li>两角分别相等的两个三角形相似</li>
+                            <li>两边成比例且夹角相等的两个三角形相似</li>
+                            <li>三边成比例的两个三角形相似</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知∠A=∠D，∠B=∠E，判定△ABC∽△DEF</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 相似三角形的性质</h4>
+                            <div class="definition"><strong>定义：</strong>相似三角形的性质。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>对应高的比、对应中线的比、对应角平分线的比都等于相似比</li>
+                            <li>周长比等于相似比</li>
+                            <li>面积比等于相似比的平方</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>相似比为2:3，面积比为多少</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>27.3 位似</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 位似</h4>
+                            <div class="definition"><strong>定义：</strong>如果两个图形不仅相似，而且对应顶点的连线相交于一点，对应边互相平行，那么这样的两个图形叫做位似图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>位似中心是对应顶点连线的交点</li>
+                            <li>位似比等于相似比</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>相似图形对应边</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 锐角三角函数 -->
+    <div class="chapter" id="RJ-9-2-CH03" data-status="filled">
+        <h2>第3章 锐角三角函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-2-CH03 -->
+                    <div class="section">
+                        <h3>28.1 锐角三角函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 正弦</h4>
+                            <div class="definition"><strong>定义：</strong>在直角三角形中，锐角A的对边与斜边的比叫做∠A的正弦，记作sinA。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sinA=对边/斜边</li>
+                            <li>0<sinA<1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>在Rt△ABC中，∠C=90°，AB=5，BC=3，求sinA</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 余弦</h4>
+                            <div class="definition"><strong>定义：</strong>在直角三角形中，锐角A的邻边与斜边的比叫做∠A的余弦，记作cosA。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>cosA=邻边/斜边</li>
+                            <li>0<cosA<1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>在Rt△ABC中，∠C=90°，AC=4，AB=5，求cosA</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 正切</h4>
+                            <div class="definition"><strong>定义：</strong>在直角三角形中，锐角A的对边与邻边的比叫做∠A的正切，记作tanA。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>tanA=对边/邻边</li>
+                            <li>tanA>0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>在Rt△ABC中，∠C=90°，BC=3，AC=4，求tanA</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 特殊角的三角函数值</h4>
+                            <div class="definition"><strong>定义：</strong>30°、45°、60°角的三角函数值。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sin30°=1/2，cos30°=√3/2，tan30°=√3/3</li>
+                            <li>sin45°=√2/2，cos45°=√2/2，tan45°=1</li>
+                            <li>sin60°=√3/2，cos60°=1/2，tan60°=√3</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>写出sin30°、cos45°、tan60°的值</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>28.2 解直角三角形及其应用</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 解直角三角形</h4>
+                            <div class="definition"><strong>定义：</strong>由直角三角形中的已知元素，求出所有未知元素的过程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>已知两边，求第三边和两锐角</li>
+                            <li>已知一边和一锐角，求其他边和角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知直角三角形两直角边为3和4，求斜边</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 解直角三角形的应用</h4>
+                            <div class="definition"><strong>定义：</strong>用解直角三角形解决实际问题。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>仰角和俯角</li>
+                            <li>坡度和坡角</li>
+                            <li>方位角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>已知直角三角形两直角边为3和4，求斜边的应用</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 投影与视图 -->
+    <div class="chapter" id="RJ-9-2-CH04" data-status="filled">
+        <h2>第4章 投影与视图</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:RJ-9-2-CH04 -->
+                    <div class="section">
+                        <h3>29.1 投影</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 投影</h4>
+                            <div class="definition"><strong>定义：</strong>物体在光线的照射下，在某个平面内形成的影子叫做投影。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>中心投影：由同一点发出的光线形成的投影</li>
+                            <li>平行投影：由平行光线形成的投影</li>
+                            <li>正投影：投影线垂直于投影面的平行投影</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>判断日晷的投影是中心投影还是平行投影</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>29.2 三视图</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 三视图</h4>
+                            <div class="definition"><strong>定义：</strong>主视图、左视图、俯视图。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>主视图：从正面看到的图形</li>
+                            <li>左视图：从左面看到的图形</li>
+                            <li>俯视图：从上面看到的图形</li>
+                            <li>长对正、高平齐、宽相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>画出正方体的三视图</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>29.3 课题学习 制作立体模型</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 由三视图制作立体模型</h4>
+                            <div class="definition"><strong>定义：</strong>根据三视图制作立体模型。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>根据三视图想象立体图形的形状</li>
+                            <li>制作立体模型</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>俯视图是</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

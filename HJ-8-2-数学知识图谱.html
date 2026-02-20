@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沪教版八年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>沪教版八年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: HJ-8-2</span>
+            <span>章节数: 4</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 一次函数 -->
+    <div class="chapter" id="HJ-8-2-CH01" data-status="filled">
+        <h2>第1章 一次函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:HJ-8-2-CH01 -->
+                    <div class="section">
+                        <h3>1.1 函数的概念</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 函数</h4>
+                            <div class="definition"><strong>定义：</strong>在一个变化过程中，如果有两个变量x和y，并且对于x的每一个确定的值，y都有唯一确定的值与其对应，那么就说y是x的函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>x是自变量</li>
+                            <li>y是因变量</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断函数关系</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>1.2 一次函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一次函数</h4>
+                            <div class="definition"><strong>定义：</strong>形如y=kx+b（k、b是常数，k≠0）的函数叫做一次函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>k是斜率，b是截距</li>
+                            <li>当b=0时，y=kx叫做正比例函数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断一次函数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 一次函数的图象</h4>
+                            <div class="definition"><strong>定义：</strong>一次函数y=kx+b的图象是一条直线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>k>0时，y随x的增大而增大</li>
+                            <li>k<0时，y随x的增大而减小</li>
+                            <li>b决定直线与y轴的交点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画一次函数图象</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 代数方程 -->
+    <div class="chapter" id="HJ-8-2-CH02" data-status="filled">
+        <h2>第2章 代数方程</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:HJ-8-2-CH02 -->
+                    <div class="section">
+                        <h3>2.1 整式方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 一元整式方程</h4>
+                            <div class="definition"><strong>定义：</strong>方程中只含有一个未知数且两边都是关于未知数的整式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>一元一次方程</li>
+                            <li>一元二次方程</li>
+                            <li>高次方程</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解整式方程</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.2 分式方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 分式方程</h4>
+                            <div class="definition"><strong>定义：</strong>分母中含有未知数的方程叫做分式方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解分式方程要检验</li>
+                            <li>增根：使分母为0的根</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解分式方程</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>2.3 无理方程</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 无理方程</h4>
+                            <div class="definition"><strong>定义：</strong>根号下含有未知数的方程叫做无理方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解无理方程要检验</li>
+                            <li>通过两边平方去根号</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解无理方程</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 四边形 -->
+    <div class="chapter" id="HJ-8-2-CH03" data-status="filled">
+        <h2>第3章 四边形</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:HJ-8-2-CH03 -->
+                    <div class="section">
+                        <h3>3.1 多边形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 多边形</h4>
+                            <div class="definition"><strong>定义：</strong>由若干条不在同一直线上的线段首尾顺次相连组成的封闭平面图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>n边形有n个顶点、n条边、n个内角</li>
+                            <li>n边形内角和为(n-2)×180°</li>
+                            <li>n边形外角和为360°</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：多边形内角和</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.2 平行四边形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平行四边形</h4>
+                            <div class="definition"><strong>定义：</strong>两组对边分别平行的四边形叫做平行四边形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>对边平行且相等</li>
+                            <li>对角相等</li>
+                            <li>对角线互相平分</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：平行四边形的性质</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 特殊的平行四边形</h4>
+                            <div class="definition"><strong>定义：</strong>矩形、菱形、正方形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>矩形：四个角都是直角的平行四边形</li>
+                            <li>菱形：四条边都相等的平行四边形</li>
+                            <li>正方形：既是矩形又是菱形的四边形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：特殊平行四边形的性质</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>3.3 梯形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 梯形</h4>
+                            <div class="definition"><strong>定义：</strong>一组对边平行，另一组对边不平行的四边形叫做梯形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平行的两边叫做底</li>
+                            <li>不平行的两边叫做腰</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：梯形的性质</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 等腰梯形</h4>
+                            <div class="definition"><strong>定义：</strong>两腰相等的梯形叫做等腰梯形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>等腰梯形同一底上的两个角相等</li>
+                            <li>等腰梯形的对角线相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：等腰梯形的性质</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 概率初步 -->
+    <div class="chapter" id="HJ-8-2-CH04" data-status="filled">
+        <h2>第4章 概率初步</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:HJ-8-2-CH04 -->
+                    <div class="section">
+                        <h3>4.1 事件及其发生的可能性</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 事件</h4>
+                            <div class="definition"><strong>定义：</strong>在一定条件下，可能发生也可能不发生的事件叫做随机事件。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>必然事件：一定会发生的事件</li>
+                            <li>不可能事件：一定不会发生的事件</li>
+                            <li>随机事件：可能发生也可能不发生的事件</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断事件类型</div>
+                            
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>4.2 概率的意义</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 概率</h4>
+                            <div class="definition"><strong>定义：</strong>表示一个事件发生的可能性大小的数叫做该事件的概率。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>必然事件的概率为1</li>
+                            <li>不可能事件的概率为0</li>
+                            <li>随机事件的概率在0到1之间</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：计算概率</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

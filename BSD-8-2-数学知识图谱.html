@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版八年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版八年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-8-2</span>
+            <span>章节数: 6</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 三角形的证明 -->
+    <div class="chapter" id="BSD-8-2-CH01" data-status="filled">
+        <h2>第1章 三角形的证明</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH01 -->
+                    <div class="section">
+                        <h3>1.1-1.4 等腰三角形与直角三角形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 等腰三角形</h4>
+                            <div class="definition"><strong>定义：</strong>有两条边相等的三角形叫做等腰三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>等边对等角</li>
+                            <li>三线合一：顶角平分线、底边上的中线、底边上的高互相重合</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：等腰三角形的性质与判定</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 等边三角形</h4>
+                            <div class="definition"><strong>定义：</strong>三条边都相等的三角形叫做等边三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>三个角都等于60°</li>
+                            <li>三边上的三线合一</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：等边三角形的性质与判定</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 直角三角形</h4>
+                            <div class="definition"><strong>定义：</strong>有一个角是直角的三角形叫做直角三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两个锐角互余</li>
+                            <li>斜边上的中线等于斜边的一半</li>
+                            <li>30°角所对的直角边等于斜边的一半</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：直角三角形的性质</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 一元一次不等式与一元一次不等式组 -->
+    <div class="chapter" id="BSD-8-2-CH02" data-status="filled">
+        <h2>第2章 一元一次不等式与一元一次不等式组</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH02 -->
+                    <div class="section">
+                        <h3>2.1-2.6 不等式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 不等式</h4>
+                            <div class="definition"><strong>定义：</strong>用不等号表示不等关系的式子叫做不等式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>不等号：>、<、≥、≤、≠</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：列不等式</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 不等式的基本性质</h4>
+                            <div class="definition"><strong>定义：</strong>不等式两边同时加上或减去同一个数，不等号方向不变；不等式两边同时乘或除以同一个正数，不等号方向不变；不等式两边同时乘或除以同一个负数，不等号方向改变。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>性质1：a>b，则a±c>b±c</li>
+                            <li>性质2：a>b，c>0，则ac>bc</li>
+                            <li>性质3：a>b，c<0，则ac<bc</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：利用不等式性质变形</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 一元一次不等式</h4>
+                            <div class="definition"><strong>定义：</strong>只含有一个未知数，且未知数的次数是1的不等式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解法：去分母、去括号、移项、合并同类项、系数化为1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解一元一次不等式</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 一元一次不等式组</h4>
+                            <div class="definition"><strong>定义：</strong>由几个含有同一个未知数的一元一次不等式组成的不等式组。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解集：各不等式解集的公共部分</li>
+                            <li>同大取大，同小取小，大小小大中间找，大大小小无解了</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解不等式组</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 图形的平移与旋转 -->
+    <div class="chapter" id="BSD-8-2-CH03" data-status="filled">
+        <h2>第3章 图形的平移与旋转</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH03 -->
+                    <div class="section">
+                        <h3>3.1-3.3 平移与旋转</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平移</h4>
+                            <div class="definition"><strong>定义：</strong>在平面内，将一个图形沿某个方向移动一定的距离。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平移不改变图形的形状和大小</li>
+                            <li>平移后的图形与原图形对应点连线平行且相等</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：平移的性质</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 旋转</h4>
+                            <div class="definition"><strong>定义：</strong>在平面内，将一个图形绕一个定点按某个方向转动一个角度。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>旋转不改变图形的形状和大小</li>
+                            <li>对应点到旋转中心的距离相等</li>
+                            <li>对应点与旋转中心连线所成的角等于旋转角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：旋转的性质</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 因式分解 -->
+    <div class="chapter" id="BSD-8-2-CH04" data-status="filled">
+        <h2>第4章 因式分解</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH04 -->
+                    <div class="section">
+                        <h3>4.1-4.3 因式分解</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 因式分解</h4>
+                            <div class="definition"><strong>定义：</strong>把一个多项式化成几个整式的积的形式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>因式分解与整式乘法是互逆运算</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断因式分解</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 提公因式法</h4>
+                            <div class="definition"><strong>定义：</strong>把多项式中的公因式提取出来。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>找出各项的公因式</li>
+                            <li>把公因式提取出来</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：提公因式法分解因式</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 公式法</h4>
+                            <div class="definition"><strong>定义：</strong>利用乘法公式进行因式分解。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>平方差公式：a²-b²=(a+b)(a-b)</li>
+                            <li>完全平方公式：a²±2ab+b²=(a±b)²</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：公式法分解因式</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 分式与分式方程 -->
+    <div class="chapter" id="BSD-8-2-CH05" data-status="filled">
+        <h2>第5章 分式与分式方程</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH05 -->
+                    <div class="section">
+                        <h3>5.1-5.4 分式</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 分式</h4>
+                            <div class="definition"><strong>定义：</strong>形如A/B（A、B是整式，B中含有字母且B≠0）的式子叫做分式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>分母中含有字母</li>
+                            <li>分母不能为0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断分式</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 分式的基本性质</h4>
+                            <div class="definition"><strong>定义：</strong>分式的分子与分母同时乘（或除以）同一个不为0的整式，分式的值不变。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>A/B=(A×M)/(B×M)（M≠0）</li>
+                            <li>A/B=(A÷M)/(B÷M)（M≠0）</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：分式的约分和通分</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 分式的运算</h4>
+                            <div class="definition"><strong>定义：</strong>分式的加减乘除运算。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>分式乘法：(a/b)×(c/d)=(ac)/(bd)</li>
+                            <li>分式除法：(a/b)÷(c/d)=(a/b)×(d/c)</li>
+                            <li>分式加减：先通分，再加减</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：分式的运算</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 分式方程</h4>
+                            <div class="definition"><strong>定义：</strong>分母中含有未知数的方程叫做分式方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>解分式方程要检验</li>
+                            <li>增根：使分母为0的根</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解分式方程</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 平行四边形 -->
+    <div class="chapter" id="BSD-8-2-CH06" data-status="filled">
+        <h2>第6章 平行四边形</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-2-CH06 -->
+                    <div class="section">
+                        <h3>6.1-6.4 平行四边形</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平行四边形</h4>
+                            <div class="definition"><strong>定义：</strong>两组对边分别平行的四边形叫做平行四边形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>对边平行且相等</li>
+                            <li>对角相等</li>
+                            <li>对角线互相平分</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：平行四边形的性质</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 平行四边形的判定</h4>
+                            <div class="definition"><strong>定义：</strong>判定一个四边形是平行四边形的方法。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>两组对边分别平行的四边形是平行四边形</li>
+                            <li>两组对边分别相等的四边形是平行四边形</li>
+                            <li>一组对边平行且相等的四边形是平行四边形</li>
+                            <li>对角线互相平分的四边形是平行四边形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判定平行四边形</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

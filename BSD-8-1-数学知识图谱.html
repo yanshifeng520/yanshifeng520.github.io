@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版八年级上册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版八年级上册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-8-1</span>
+            <span>章节数: 6</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 勾股定理 -->
+    <div class="chapter" id="BSD-8-1-CH01" data-status="filled">
+        <h2>第1章 勾股定理</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH01 -->
+                    <div class="section">
+                        <h3>1.1-1.2 勾股定理</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 勾股定理</h4>
+                            <div class="definition"><strong>定义：</strong>直角三角形两直角边的平方和等于斜边的平方。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a²+b²=c²（a、b为直角边，c为斜边）</li>
+                            <li>勾股定理反映了直角三角形三边的数量关系</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：利用勾股定理求边长</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 勾股定理的逆定理</h4>
+                            <div class="definition"><strong>定义：</strong>如果三角形的三边长a、b、c满足a²+b²=c²，那么这个三角形是直角三角形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>逆定理可以用来判断三角形是否为直角三角形</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断直角三角形</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 勾股数</h4>
+                            <div class="definition"><strong>定义：</strong>满足a²+b²=c²的三个正整数叫做勾股数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>常见勾股数：3,4,5；5,12,13；8,15,17</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：识别勾股数</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 实数 -->
+    <div class="chapter" id="BSD-8-1-CH02" data-status="filled">
+        <h2>第2章 实数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH02 -->
+                    <div class="section">
+                        <h3>2.1-2.7 实数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平方根</h4>
+                            <div class="definition"><strong>定义：</strong>如果一个数的平方等于a，那么这个数叫做a的平方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正数有两个平方根，它们互为相反数</li>
+                            <li>0的平方根是0</li>
+                            <li>负数没有平方根</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求平方根</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 算术平方根</h4>
+                            <div class="definition"><strong>定义：</strong>正数a的正的平方根叫做a的算术平方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>算术平方根是非负数</li>
+                            <li>(√a)²=a（a≥0）</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求算术平方根</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 立方根</h4>
+                            <div class="definition"><strong>定义：</strong>如果一个数的立方等于a，那么这个数叫做a的立方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>正数的立方根是正数</li>
+                            <li>负数的立方根是负数</li>
+                            <li>0的立方根是0</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求立方根</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 实数</h4>
+                            <div class="definition"><strong>定义：</strong>有理数和无理数统称为实数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>无理数是无限不循环小数</li>
+                            <li>实数与数轴上的点一一对应</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：实数的分类</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>5. 二次根式</h4>
+                            <div class="definition"><strong>定义：</strong>形如√a（a≥0）的式子叫做二次根式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>√a≥0（a≥0）</li>
+                            <li>(√a)²=a（a≥0）</li>
+                            <li>√(a²)=|a|</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：二次根式的性质</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 位置与坐标 -->
+    <div class="chapter" id="BSD-8-1-CH03" data-status="filled">
+        <h2>第3章 位置与坐标</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH03 -->
+                    <div class="section">
+                        <h3>3.1-3.3 平面直角坐标系</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平面直角坐标系</h4>
+                            <div class="definition"><strong>定义：</strong>在平面内，两条互相垂直且有公共原点的数轴组成平面直角坐标系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>水平的数轴叫做x轴</li>
+                            <li>竖直的数轴叫做y轴</li>
+                            <li>两轴的交点是原点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：确定点的坐标</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 象限</h4>
+                            <div class="definition"><strong>定义：</strong>平面被坐标轴分成四个部分，分别叫做第一、二、三、四象限。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>第一象限(+,+)</li>
+                            <li>第二象限(-,+)</li>
+                            <li>第三象限(-,-)</li>
+                            <li>第四象限(+,-)</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断点所在象限</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 对称点</h4>
+                            <div class="definition"><strong>定义：</strong>关于坐标轴对称的点的坐标特征。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>关于x轴对称：横坐标相同，纵坐标互为相反数</li>
+                            <li>关于y轴对称：纵坐标相同，横坐标互为相反数</li>
+                            <li>关于原点对称：横纵坐标都互为相反数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求对称点坐标</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 一次函数 -->
+    <div class="chapter" id="BSD-8-1-CH04" data-status="filled">
+        <h2>第4章 一次函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH04 -->
+                    <div class="section">
+                        <h3>4.1-4.4 一次函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 函数</h4>
+                            <div class="definition"><strong>定义：</strong>在一个变化过程中，如果有两个变量x和y，并且对于x的每一个确定的值，y都有唯一确定的值与其对应，那么就说y是x的函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>x是自变量</li>
+                            <li>y是因变量</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断函数关系</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 一次函数</h4>
+                            <div class="definition"><strong>定义：</strong>形如y=kx+b（k、b是常数，k≠0）的函数叫做一次函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>k是斜率，b是截距</li>
+                            <li>当b=0时，y=kx叫做正比例函数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断一次函数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 一次函数的图象</h4>
+                            <div class="definition"><strong>定义：</strong>一次函数y=kx+b的图象是一条直线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>k>0时，y随x的增大而增大</li>
+                            <li>k<0时，y随x的增大而减小</li>
+                            <li>b决定直线与y轴的交点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画一次函数图象</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 二元一次方程组 -->
+    <div class="chapter" id="BSD-8-1-CH05" data-status="filled">
+        <h2>第5章 二元一次方程组</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH05 -->
+                    <div class="section">
+                        <h3>5.1-5.8 二元一次方程组</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 二元一次方程</h4>
+                            <div class="definition"><strong>定义：</strong>含有两个未知数，且未知数的次数都是1的方程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>含有两个未知数</li>
+                            <li>未知数的次数都是1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断二元一次方程</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 二元一次方程组</h4>
+                            <div class="definition"><strong>定义：</strong>由两个二元一次方程组成的方程组。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方程组含有两个未知数</li>
+                            <li>方程组有公共解</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断二元一次方程组</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 解二元一次方程组</h4>
+                            <div class="definition"><strong>定义：</strong>求方程组的解的方法。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>代入消元法</li>
+                            <li>加减消元法</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解方程组</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 数据的分析 -->
+    <div class="chapter" id="BSD-8-1-CH06" data-status="filled">
+        <h2>第6章 数据的分析</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-8-1-CH06 -->
+                    <div class="section">
+                        <h3>6.1-6.4 数据的分析</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 平均数</h4>
+                            <div class="definition"><strong>定义：</strong>一组数据的总和除以数据的个数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>算术平均数</li>
+                            <li>加权平均数</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：计算平均数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 中位数和众数</h4>
+                            <div class="definition"><strong>定义：</strong>中位数是将数据按大小顺序排列后位于中间的数；众数是出现次数最多的数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>中位数反映数据的中等水平</li>
+                            <li>众数反映数据的集中趋势</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求中位数和众数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 方差和标准差</h4>
+                            <div class="definition"><strong>定义：</strong>方差是各数据与平均数差的平方的平均数；标准差是方差的算术平方根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>方差反映数据的波动大小</li>
+                            <li>方差越大，数据波动越大</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：计算方差</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>

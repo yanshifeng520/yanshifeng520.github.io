@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北师大版九年级下册数学知识图谱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 1.8em; 
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        .version-info {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .version-info span {
+            background: #ecf0f1;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .chapter { 
+            margin: 25px 0; 
+            border-left: 4px solid #3498db; 
+            padding-left: 20px; 
+            background: white;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chapter h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            padding: 15px 0 10px 0;
+        }
+        .injection-point {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin: 10px 0 15px 0;
+        }
+        .placeholder {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+        }
+        .placeholder-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .placeholder-hint {
+            font-size: 0.85em;
+            color: #bdc3c7;
+        }
+        .knowledge-point { 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 6px;
+            border-left: 3px solid #bdc3c7;
+        }
+        .verified { border-left: 3px solid #27ae60; }
+        .pending { border-left: 3px solid #f39c12; }
+        .source-ref { font-size: 12px; color: #7f8c8d; margin-top: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .status-indicator {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .status-empty { background: #e0e0e0; color: #666; }
+        .status-progress { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+            .section { margin: 15px 0; padding: 10px; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; }
+        .section h3 { color: #3498db; font-size: 1.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ddd; }
+        .knowledge-point h4 { color: #2c3e50; font-size: 1em; margin-bottom: 8px; }
+        .knowledge-point .definition, .knowledge-point .properties, .knowledge-point .examples { margin: 8px 0; font-size: 0.95em; }
+        .knowledge-point ul { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回教材列表</a>
+        <h1>北师大版九年级下册数学知识图谱</h1>
+        <p class="version-info">
+            <span>版本代码: BSD-9-2</span>
+            <span>章节数: 3</span>
+            <span class="status-indicator status-complete">已完成</span>
+        </p>
+
+    <!-- 章节注入点模板: 直角三角形的边角关系 -->
+    <div class="chapter" id="BSD-9-2-CH01" data-status="filled">
+        <h2>第1章 直角三角形的边角关系</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-9-2-CH01 -->
+                    <div class="section">
+                        <h3>1.1-1.4 锐角三角函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 正切</h4>
+                            <div class="definition"><strong>定义：</strong>在直角三角形中，锐角A的对边与邻边的比叫做∠A的正切，记作tanA。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>tanA=对边/邻边</li>
+                            <li>tanA的值越大，梯子越陡</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求正切值</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 正弦和余弦</h4>
+                            <div class="definition"><strong>定义：</strong>在直角三角形中，锐角A的对边与斜边的比叫做∠A的正弦，记作sinA；邻边与斜边的比叫做∠A的余弦，记作cosA。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sinA=对边/斜边</li>
+                            <li>cosA=邻边/斜边</li>
+                            <li>sin²A+cos²A=1</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求正弦和余弦值</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 特殊角的三角函数值</h4>
+                            <div class="definition"><strong>定义：</strong>30°、45°、60°角的三角函数值。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>sin30°=1/2，cos30°=√3/2，tan30°=√3/3</li>
+                            <li>sin45°=√2/2，cos45°=√2/2，tan45°=1</li>
+                            <li>sin60°=√3/2，cos60°=1/2，tan60°=√3</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：特殊角的三角函数值</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 解直角三角形</h4>
+                            <div class="definition"><strong>定义：</strong>由直角三角形中的已知元素，求出所有未知元素的过程。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>已知两边，求第三边和两锐角</li>
+                            <li>已知一边和一锐角，求其他边和角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：解直角三角形</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 二次函数 -->
+    <div class="chapter" id="BSD-9-2-CH02" data-status="filled">
+        <h2>第2章 二次函数</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-9-2-CH02 -->
+                    <div class="section">
+                        <h3>2.1-2.5 二次函数</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 二次函数</h4>
+                            <div class="definition"><strong>定义：</strong>形如y=ax²+bx+c（a、b、c是常数，a≠0）的函数叫做二次函数。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>a是二次项系数，b是一次项系数，c是常数项</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断二次函数</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 二次函数的图象</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数的图象是抛物线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>当a>0时，抛物线开口向上</li>
+                            <li>当a<0时，抛物线开口向下</li>
+                            <li>对称轴是直线x=-b/(2a)</li>
+                            <li>顶点坐标是(-b/(2a)，(4ac-b²)/(4a))</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：画二次函数图象</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 二次函数的性质</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数的性质。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>当a>0时，x=-b/(2a)时，y有最小值</li>
+                            <li>当a<0时，x=-b/(2a)时，y有最大值</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：求二次函数的最值</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 二次函数与一元二次方程</h4>
+                            <div class="definition"><strong>定义：</strong>二次函数y=ax²+bx+c的图象与x轴的交点的横坐标就是一元二次方程ax²+bx+c=0的根。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>Δ>0时，抛物线与x轴有两个交点</li>
+                            <li>Δ=0时，抛物线与x轴有一个交点</li>
+                            <li>Δ<0时，抛物线与x轴没有交点</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：二次函数与一元二次方程的关系</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+    <!-- 章节注入点模板: 圆 -->
+    <div class="chapter" id="BSD-9-2-CH03" data-status="filled">
+        <h2>第3章 圆</h2>
+        <div class="injection-point">
+            <!-- CONTENT_WILL_BE_INJECTED_HERE:BSD-9-2-CH03 -->
+                    <div class="section">
+                        <h3>3.1-3.9 圆</h3>
+                        <div class="knowledge-point pending">
+                            <h4>1. 圆</h4>
+                            <div class="definition"><strong>定义：</strong>平面上到定点的距离等于定长的所有点组成的图形。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>圆心确定圆的位置</li>
+                            <li>半径确定圆的大小</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆的基本概念</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>2. 垂径定理</h4>
+                            <div class="definition"><strong>定义：</strong>垂直于弦的直径平分这条弦，并且平分弦所对的两条弧。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>垂直于弦的直径平分弦</li>
+                            <li>垂直于弦的直径平分弦所对的弧</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：垂径定理的应用</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>3. 圆心角、圆周角</h4>
+                            <div class="definition"><strong>定义：</strong>顶点在圆心的角叫做圆心角；顶点在圆上，两边都与圆相交的角叫做圆周角。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>同弧所对的圆周角等于圆心角的一半</li>
+                            <li>同弧所对的圆周角相等</li>
+                            <li>直径所对的圆周角是直角</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：圆心角和圆周角</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>4. 点和圆的位置关系</h4>
+                            <div class="definition"><strong>定义：</strong>点与圆的位置关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>点在圆外：d>r</li>
+                            <li>点在圆上：d=r</li>
+                            <li>点在圆内：d<r</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断点与圆的位置关系</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>5. 直线和圆的位置关系</h4>
+                            <div class="definition"><strong>定义：</strong>直线与圆的位置关系。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>相离：d>r</li>
+                            <li>相切：d=r</li>
+                            <li>相交：d<r</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：判断直线与圆的位置关系</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>6. 切线</h4>
+                            <div class="definition"><strong>定义：</strong>与圆只有一个公共点的直线叫做圆的切线。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>切线垂直于过切点的半径</li>
+                            <li>过半径外端且垂直于半径的直线是圆的切线</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：切线的性质与判定</div>
+                            
+                        </div>
+                        <div class="knowledge-point pending">
+                            <h4>7. 弧长和扇形面积</h4>
+                            <div class="definition"><strong>定义：</strong>弧长和扇形面积的计算公式。</div>
+                            <div class="properties"><strong>性质/法则：</strong>
+                                <ul>
+                            <li>弧长公式：l=(nπr)/180</li>
+                            <li>扇形面积公式：S=(nπr²)/360=(1/2)lr</li>
+                                </ul>
+                            </div>
+                            <div class="examples"><strong>例题类型：</strong>例1：计算弧长和扇形面积</div>
+                            
+                        </div>
+                    </div>
+
+        </div>
+        <div class="source-attribution" style="display:none;">
+            <!-- 阶段二填充溯源URL -->
+        </div>
+    </div>
+
+        
+    </div>
+</body>
+</html>
